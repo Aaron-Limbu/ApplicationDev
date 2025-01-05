@@ -1,0 +1,82 @@
+﻿@page "/cashin"
+@using MauiApp1.Models
+
+@inject TransactionService TransactionService
+@inject CashinService CashinService
+@inject UserService UserService
+
+<div class="container mt-5 mb-5 p-5">
+    <h3 class="text-center mb-4">Register Cash Inflow</h3>
+
+        <div class="form-group mb-3">
+            <label for="username">Username</label>
+            <input type="text" id="username" class="form-control" @bind="Username" required />
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="amount">Amount</label>
+            <input type="number" id="amount" class="form-control" @bind="RegisterAmount" required />
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="date">Date</label>
+            <input type="date" id="date" class="form-control" @bind="RegisterDate" required />
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="sourceIncome">Source of Income</label>
+            <input type="text" id="sourceIncome" class="form-control" @bind="RegisterSI" required />
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="note">Note</label>
+            <textarea id="note" class="form-control" @bind="RegisterNote"></textarea>
+        </div>
+
+
+        <div class="form-group mb-3">
+            <label>Tags</label>
+            <InputSelect @bind-Value="RegisterTag" @onchange="OnTagsChange" Tvalue="string" class="form-select" >
+                <option value="">-- Select a Tag --</option>
+                @foreach (var tag in Tags)
+                {
+                    <option value="@tag">@tag</option>
+                }
+            </InputSelect>
+        </div>
+
+        <button @onclick="CreateCashin" class="btn btn-primary w-100">Submit Cash Inflow</button>
+
+</div>
+@code{
+    private decimal RegisterAmount { get; set; }
+    private DateOnly RegisterDate { get; set; } =  DateOnly.FromDateTime(DateTime.Now);
+    private string RegisterSI { get; set; } = string.Empty;
+    private string RegisterNote { get; set; } = string.Empty;
+    private List<string> Tags = new List<string> { "Yearly", "Monthly", "Food", "Drinks", "Clothes", "Gadgets", "Miscellaneous", "Fuel" };
+    private string RegisterTag { get; set; } 
+    // private List<Transactions> transactions = new ();
+    private List<CashinFlow> cashinFlows = new();
+    private string Username { get; set; } = string.Empty;
+    private int RegisterUserId { get; set;  }
+
+    private void OnTagsChange(ChangeEventArgs e)
+    {
+        RegisterTag = e.Value?.ToString() ?? string.Empty; 
+    }
+    public void CreateCashin()
+	{
+		RegisterUserId = UserService.GetId(Username);
+		var CI = new CashinFlow
+		{
+			Amount = RegisterAmount,
+			Date = RegisterDate ,
+			SourceofIncome = RegisterSI,
+			Note = RegisterNote,
+			UserId = RegisterUserId
+		};
+		CI.Id = cashinFlows.Count > 0 ? cashinFlows.Max(u => u.Id) + 1 : 1;
+		cashinFlows.Add(CI);
+		CashinService.AddCashin(cashinFlows);
+	}
+}

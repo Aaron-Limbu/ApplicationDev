@@ -1,0 +1,98 @@
+﻿@page "/cashout"
+@using MauiApp1.Models
+@inject CashOutService CashOutService
+@inject CashinService CashinService
+@inject UserService UserService
+
+<div class="container mt-5 mb-5 p-5">
+	<div class="d-flex">
+		<h3 class="text-center mb-4">Register Cash Outflow</h3>
+
+	</div>
+	<div class="form-group mb-3">
+		<label for="username">Username</label>
+		<input type="text" id="username" class="form-control" @bind="Username" required />
+	</div>
+
+	<div class="form-group mb-3">
+		<label for="amount">Amount</label>
+		<input type="number" id="amount" class="form-control" @bind="RegisterAmount" required />
+	</div>
+
+	<div class="form-group mb-3">
+		<label for="date">Date of Transaction</label>
+		<input type="date" id="date" class="form-control" @bind="RegisterDoT" required />
+	</div>
+
+	<div class="form-group mb-3">
+		<label for="category">Category</label>
+		<input type="text" id="category" class="form-control" @bind="RegisterCategory" required />
+	</div>
+
+	<div class="form-group mb-3">
+		<label for="note">Note</label>
+		<textarea id="note" class="form-control" @bind="RegisterNote"></textarea>
+	</div>
+	@if (!string.IsNullOrEmpty(Message))
+	{
+		<p class="alert alert-info">@Message</p>
+	}
+
+	<button @onclick="CreateCashOut" class="btn btn-primary w-100">Submit Cash Outflow</button>
+</div>
+
+@code{
+	private decimal Balance { get; set; } 
+	private int RegisterUserId { get; set; }
+	private decimal RegisterAmount { get; set; }
+	private DateOnly RegisterDoT { get; set; } = DateOnly.FromDateTime(DateTime.Now);
+	private string RegisterCategory { get; set; } = string.Empty; 
+	private string RegisterNote { get; set; } = string.Empty;
+	private List<CashOutFlow> cashOutFlows = new();
+	private string Username { get; set; } = string.Empty;
+	private int userId { get; set; }
+	private List<CashinFlow> cashinFlows = new();
+	private string Message = string.Empty; 
+
+	protected override void OnInitialized()
+	{
+		cashinFlows = CashinService.LoadCIFs();
+
+	}
+	public void setBalance()
+	{
+		Balance = cashinFlows.Where(c =>c.UserId == UserService.GetId(Username)).Sum(c => c.Amount);	
+	}
+
+
+	private bool CheckSufficientBalance(decimal amount)
+	{
+		return Balance >= amount;
+	}
+
+	public void CreateCashOut()
+	{
+		userId = UserService.GetId(	Username);
+		setBalance();
+		if (CheckSufficientBalance(RegisterAmount))
+		{
+			Message = "Insuffuicient Balance";
+		}
+		else
+		{
+
+			var newCashOut = new CashOutFlow
+				{
+					Amount = RegisterAmount,
+					DateofTransaction = RegisterDoT,
+					Category = RegisterCategory,
+					Note = RegisterNote,
+					UserId = userId
+				};
+			newCashOut.Id = cashOutFlows.Count > 0 ? cashOutFlows.Max(u => u.Id) + 1 : 1;
+			cashOutFlows.Add(newCashOut);
+			CashOutService.SaveCashOutFlows(cashOutFlows);
+		}
+
+	}
+}

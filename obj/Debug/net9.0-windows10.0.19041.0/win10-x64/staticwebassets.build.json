@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fSbIUUz5dOIXXNN5d0TmyRQEHvgcM+KurBUSCgAjHqs=",
+  "Hash": "nPGsgAj2qeugwphshgDGxCubdNFQP6LsDEn7No44knA=",
   "Source": "MauiApp1",
   "BasePath": "/",
   "Mode": "Root",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\1joc8h8ni1-e5tk7yf482.gz",
+      "Identity": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\1joc8h8ni1-yad3rmdthl.gz",
       "SourceId": "MauiApp1",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "css/app#[.{fingerprint=e5tk7yf482}]?.css.gz",
+      "RelativePath": "css/app#[.{fingerprint=yad3rmdthl}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -31,11 +31,32 @@
       "RelatedAsset": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\app.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "9sb0w9jnhl",
-      "Integrity": "qQ+vo7zHfjEIsR7Ks2Vsx0CJAT5ngXzV3IUcVLWwEfw=",
+      "Fingerprint": "0lp8ziam2d",
+      "Integrity": "hN6sk3rFPpswdfbgKnaTGGxseSuo7fwyhUJ2zT4S8yY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\app.css"
+    },
+    {
+      "Identity": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\5bc72zn3wx-yv38s5socn.gz",
+      "SourceId": "MauiApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "Images/undraw_savings_uwjn#[.{fingerprint=yv38s5socn}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\Images\\undraw_savings_uwjn.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "gncs9s888f",
+      "Integrity": "9LeMhJqiUnTXQD2npuPRsLP9z50zrNcXSlwAwoLeKFM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\Images\\undraw_savings_uwjn.svg"
     },
     {
       "Identity": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\75ych6u6ed-8inm30yfxf.gz",
@@ -59,12 +80,12 @@
       "OriginalItemSpec": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\81s4vtvejm-kmeqsx4zfn.gz",
+      "Identity": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\81s4vtvejm-dlycpbnccc.gz",
       "SourceId": "MauiApp1",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "index#[.{fingerprint=kmeqsx4zfn}]?.html.gz",
+      "RelativePath": "index#[.{fingerprint=dlycpbnccc}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -73,11 +94,32 @@
       "RelatedAsset": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "emp2hzl8ca",
-      "Integrity": "Nlt8qf8/cdtO38Eb2WHW7stai64Ye0jW1a/WcOhL3G8=",
+      "Fingerprint": "szt919ap49",
+      "Integrity": "GEXjAIum3xMWiiY60WsZxQjXZs3Y8uzFW9O2EEpK+Dg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\eo4d8hiu2o-xghnp15qdi.gz",
+      "SourceId": "MauiApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "Images/undraw_yacht_rrg9#[.{fingerprint=xghnp15qdi}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\Images\\undraw_yacht_rrg9.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ok7r8jfxtp",
+      "Integrity": "6DxspuIkfTyS2U8hYasp/YTN/nbaQY1ZOOf13GnQwGM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\Images\\undraw_yacht_rrg9.svg"
     },
     {
       "Identity": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\oq58hdkxfw-7k7whb7rur.gz",
@@ -199,8 +241,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "e5tk7yf482",
-      "Integrity": "bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU=",
+      "Fingerprint": "yad3rmdthl",
+      "Integrity": "Gol2ABabpgA9axOrTYp1Gwi9T709DOdDnxbcdaceQDg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\app.css"
@@ -248,6 +290,48 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Identity": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\Images\\undraw_savings_uwjn.svg",
+      "SourceId": "MauiApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Images/undraw_savings_uwjn#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yv38s5socn",
+      "Integrity": "Uqrj7UESS3KMnj4bMnmRy3IQDIN/9FhVSJgdXBG1UQU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\undraw_savings_uwjn.svg"
+    },
+    {
+      "Identity": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\Images\\undraw_yacht_rrg9.svg",
+      "SourceId": "MauiApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Images/undraw_yacht_rrg9#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xghnp15qdi",
+      "Integrity": "zxrR8a/Di2uUCIIzOgnEIZUxatRVWU3bO5HkwM9hvfQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\undraw_yacht_rrg9.svg"
+    },
+    {
       "Identity": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\index.html",
       "SourceId": "MauiApp1",
       "SourceType": "Discovered",
@@ -262,8 +346,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "kmeqsx4zfn",
-      "Integrity": "jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso=",
+      "Fingerprint": "dlycpbnccc",
+      "Integrity": "IW/AXGPBlvY3DJ+uHLAsyeYxtFCla/JNVUB0vFCqEj0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -272,12 +356,12 @@
   "Endpoints": [
     {
       "Route": "css/app.css",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\1joc8h8ni1-e5tk7yf482.gz",
+      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\1joc8h8ni1-yad3rmdthl.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000571102227"
+          "Quality": "0.000559910414"
         }
       ],
       "ResponseHeaders": [
@@ -287,15 +371,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1750"
+          "Value": "1785"
         },
         {
           "Name": "ETag",
-          "Value": "\"qQ+vo7zHfjEIsR7Ks2Vsx0CJAT5ngXzV3IUcVLWwEfw=\""
+          "Value": "\"hN6sk3rFPpswdfbgKnaTGGxseSuo7fwyhUJ2zT4S8yY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:31:22 GMT"
+          "Value": "Sat, 04 Jan 2025 09:08:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -315,13 +399,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU=\""
+          "Value": "W/\"Gol2ABabpgA9axOrTYp1Gwi9T709DOdDnxbcdaceQDg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU="
+          "Value": "sha256-Gol2ABabpgA9axOrTYp1Gwi9T709DOdDnxbcdaceQDg="
         }
       ]
     },
@@ -336,7 +420,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3376"
+          "Value": "3462"
         },
         {
           "Name": "Content-Type",
@@ -344,11 +428,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU=\""
+          "Value": "\"Gol2ABabpgA9axOrTYp1Gwi9T709DOdDnxbcdaceQDg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:31:22 GMT"
+          "Value": "Sat, 04 Jan 2025 09:08:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -358,13 +442,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU="
+          "Value": "sha256-Gol2ABabpgA9axOrTYp1Gwi9T709DOdDnxbcdaceQDg="
         }
       ]
     },
     {
       "Route": "css/app.css.gz",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\1joc8h8ni1-e5tk7yf482.gz",
+      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\1joc8h8ni1-yad3rmdthl.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -373,7 +457,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1750"
+          "Value": "1785"
         },
         {
           "Name": "Content-Type",
@@ -381,11 +465,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qQ+vo7zHfjEIsR7Ks2Vsx0CJAT5ngXzV3IUcVLWwEfw=\""
+          "Value": "\"hN6sk3rFPpswdfbgKnaTGGxseSuo7fwyhUJ2zT4S8yY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:31:22 GMT"
+          "Value": "Sat, 04 Jan 2025 09:08:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -403,18 +487,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qQ+vo7zHfjEIsR7Ks2Vsx0CJAT5ngXzV3IUcVLWwEfw="
+          "Value": "sha256-hN6sk3rFPpswdfbgKnaTGGxseSuo7fwyhUJ2zT4S8yY="
         }
       ]
     },
     {
-      "Route": "css/app.e5tk7yf482.css",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\1joc8h8ni1-e5tk7yf482.gz",
+      "Route": "css/app.yad3rmdthl.css",
+      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\1joc8h8ni1-yad3rmdthl.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000571102227"
+          "Quality": "0.000559910414"
         }
       ],
       "ResponseHeaders": [
@@ -424,15 +508,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1750"
+          "Value": "1785"
         },
         {
           "Name": "ETag",
-          "Value": "\"qQ+vo7zHfjEIsR7Ks2Vsx0CJAT5ngXzV3IUcVLWwEfw=\""
+          "Value": "\"hN6sk3rFPpswdfbgKnaTGGxseSuo7fwyhUJ2zT4S8yY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:31:22 GMT"
+          "Value": "Sat, 04 Jan 2025 09:08:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -452,13 +536,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU=\""
+          "Value": "W/\"Gol2ABabpgA9axOrTYp1Gwi9T709DOdDnxbcdaceQDg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e5tk7yf482"
+          "Value": "yad3rmdthl"
         },
         {
           "Name": "label",
@@ -466,12 +550,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU="
+          "Value": "sha256-Gol2ABabpgA9axOrTYp1Gwi9T709DOdDnxbcdaceQDg="
         }
       ]
     },
     {
-      "Route": "css/app.e5tk7yf482.css",
+      "Route": "css/app.yad3rmdthl.css",
       "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -481,7 +565,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3376"
+          "Value": "3462"
         },
         {
           "Name": "Content-Type",
@@ -489,11 +573,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU=\""
+          "Value": "\"Gol2ABabpgA9axOrTYp1Gwi9T709DOdDnxbcdaceQDg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:31:22 GMT"
+          "Value": "Sat, 04 Jan 2025 09:08:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -503,7 +587,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e5tk7yf482"
+          "Value": "yad3rmdthl"
         },
         {
           "Name": "label",
@@ -511,13 +595,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU="
+          "Value": "sha256-Gol2ABabpgA9axOrTYp1Gwi9T709DOdDnxbcdaceQDg="
         }
       ]
     },
     {
-      "Route": "css/app.e5tk7yf482.css.gz",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\1joc8h8ni1-e5tk7yf482.gz",
+      "Route": "css/app.yad3rmdthl.css.gz",
+      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\1joc8h8ni1-yad3rmdthl.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -526,7 +610,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1750"
+          "Value": "1785"
         },
         {
           "Name": "Content-Type",
@@ -534,11 +618,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qQ+vo7zHfjEIsR7Ks2Vsx0CJAT5ngXzV3IUcVLWwEfw=\""
+          "Value": "\"hN6sk3rFPpswdfbgKnaTGGxseSuo7fwyhUJ2zT4S8yY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:31:22 GMT"
+          "Value": "Sat, 04 Jan 2025 09:08:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -556,7 +640,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e5tk7yf482"
+          "Value": "yad3rmdthl"
         },
         {
           "Name": "label",
@@ -564,7 +648,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-qQ+vo7zHfjEIsR7Ks2Vsx0CJAT5ngXzV3IUcVLWwEfw="
+          "Value": "sha256-hN6sk3rFPpswdfbgKnaTGGxseSuo7fwyhUJ2zT4S8yY="
         }
       ]
     },
@@ -1165,13 +1249,13 @@
       ]
     },
     {
-      "Route": "index.html",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\81s4vtvejm-kmeqsx4zfn.gz",
+      "Route": "Images/undraw_savings_uwjn.svg",
+      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\5bc72zn3wx-yv38s5socn.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002283105023"
+          "Quality": "0.000156176792"
         }
       ],
       "ResponseHeaders": [
@@ -1181,15 +1265,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "437"
+          "Value": "6402"
         },
         {
           "Name": "ETag",
-          "Value": "\"Nlt8qf8/cdtO38Eb2WHW7stai64Ye0jW1a/WcOhL3G8=\""
+          "Value": "\"9LeMhJqiUnTXQD2npuPRsLP9z50zrNcXSlwAwoLeKFM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:31:22 GMT"
+          "Value": "Sat, 04 Jan 2025 09:25:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1205,22 +1289,626 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "text/html"
+          "Value": "image/svg+xml"
         },
         {
           "Name": "ETag",
-          "Value": "W/\"jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso=\""
+          "Value": "W/\"Uqrj7UESS3KMnj4bMnmRy3IQDIN/9FhVSJgdXBG1UQU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso="
+          "Value": "sha256-Uqrj7UESS3KMnj4bMnmRy3IQDIN/9FhVSJgdXBG1UQU="
         }
       ]
     },
     {
-      "Route": "index.html",
+      "Route": "Images/undraw_savings_uwjn.svg",
+      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\Images\\undraw_savings_uwjn.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14326"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Uqrj7UESS3KMnj4bMnmRy3IQDIN/9FhVSJgdXBG1UQU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 09:25:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uqrj7UESS3KMnj4bMnmRy3IQDIN/9FhVSJgdXBG1UQU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/undraw_savings_uwjn.svg.gz",
+      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\5bc72zn3wx-yv38s5socn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6402"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9LeMhJqiUnTXQD2npuPRsLP9z50zrNcXSlwAwoLeKFM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 09:25:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9LeMhJqiUnTXQD2npuPRsLP9z50zrNcXSlwAwoLeKFM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/undraw_savings_uwjn.yv38s5socn.svg",
+      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\5bc72zn3wx-yv38s5socn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000156176792"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6402"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9LeMhJqiUnTXQD2npuPRsLP9z50zrNcXSlwAwoLeKFM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 09:25:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Uqrj7UESS3KMnj4bMnmRy3IQDIN/9FhVSJgdXBG1UQU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yv38s5socn"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/undraw_savings_uwjn.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uqrj7UESS3KMnj4bMnmRy3IQDIN/9FhVSJgdXBG1UQU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/undraw_savings_uwjn.yv38s5socn.svg",
+      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\Images\\undraw_savings_uwjn.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14326"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Uqrj7UESS3KMnj4bMnmRy3IQDIN/9FhVSJgdXBG1UQU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 09:25:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yv38s5socn"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/undraw_savings_uwjn.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uqrj7UESS3KMnj4bMnmRy3IQDIN/9FhVSJgdXBG1UQU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/undraw_savings_uwjn.yv38s5socn.svg.gz",
+      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\5bc72zn3wx-yv38s5socn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6402"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9LeMhJqiUnTXQD2npuPRsLP9z50zrNcXSlwAwoLeKFM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 09:25:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yv38s5socn"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/undraw_savings_uwjn.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9LeMhJqiUnTXQD2npuPRsLP9z50zrNcXSlwAwoLeKFM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/undraw_yacht_rrg9.svg",
+      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\eo4d8hiu2o-xghnp15qdi.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000658761528"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1517"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6DxspuIkfTyS2U8hYasp/YTN/nbaQY1ZOOf13GnQwGM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 21:25:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zxrR8a/Di2uUCIIzOgnEIZUxatRVWU3bO5HkwM9hvfQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zxrR8a/Di2uUCIIzOgnEIZUxatRVWU3bO5HkwM9hvfQ="
+        }
+      ]
+    },
+    {
+      "Route": "Images/undraw_yacht_rrg9.svg",
+      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\Images\\undraw_yacht_rrg9.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4195"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zxrR8a/Di2uUCIIzOgnEIZUxatRVWU3bO5HkwM9hvfQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 21:25:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zxrR8a/Di2uUCIIzOgnEIZUxatRVWU3bO5HkwM9hvfQ="
+        }
+      ]
+    },
+    {
+      "Route": "Images/undraw_yacht_rrg9.svg.gz",
+      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\eo4d8hiu2o-xghnp15qdi.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1517"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6DxspuIkfTyS2U8hYasp/YTN/nbaQY1ZOOf13GnQwGM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 21:25:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6DxspuIkfTyS2U8hYasp/YTN/nbaQY1ZOOf13GnQwGM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/undraw_yacht_rrg9.xghnp15qdi.svg",
+      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\eo4d8hiu2o-xghnp15qdi.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000658761528"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1517"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6DxspuIkfTyS2U8hYasp/YTN/nbaQY1ZOOf13GnQwGM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 21:25:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zxrR8a/Di2uUCIIzOgnEIZUxatRVWU3bO5HkwM9hvfQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xghnp15qdi"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/undraw_yacht_rrg9.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zxrR8a/Di2uUCIIzOgnEIZUxatRVWU3bO5HkwM9hvfQ="
+        }
+      ]
+    },
+    {
+      "Route": "Images/undraw_yacht_rrg9.xghnp15qdi.svg",
+      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\Images\\undraw_yacht_rrg9.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4195"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zxrR8a/Di2uUCIIzOgnEIZUxatRVWU3bO5HkwM9hvfQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 21:25:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xghnp15qdi"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/undraw_yacht_rrg9.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zxrR8a/Di2uUCIIzOgnEIZUxatRVWU3bO5HkwM9hvfQ="
+        }
+      ]
+    },
+    {
+      "Route": "Images/undraw_yacht_rrg9.xghnp15qdi.svg.gz",
+      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\eo4d8hiu2o-xghnp15qdi.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1517"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6DxspuIkfTyS2U8hYasp/YTN/nbaQY1ZOOf13GnQwGM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 21:25:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xghnp15qdi"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/undraw_yacht_rrg9.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6DxspuIkfTyS2U8hYasp/YTN/nbaQY1ZOOf13GnQwGM="
+        }
+      ]
+    },
+    {
+      "Route": "index.dlycpbnccc.html",
+      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\81s4vtvejm-dlycpbnccc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001517450683"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "658"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GEXjAIum3xMWiiY60WsZxQjXZs3Y8uzFW9O2EEpK+Dg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jan 2025 17:43:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"IW/AXGPBlvY3DJ+uHLAsyeYxtFCla/JNVUB0vFCqEj0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dlycpbnccc"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IW/AXGPBlvY3DJ+uHLAsyeYxtFCla/JNVUB0vFCqEj0="
+        }
+      ]
+    },
+    {
+      "Route": "index.dlycpbnccc.html",
       "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1230,7 +1918,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "849"
+          "Value": "1277"
         },
         {
           "Name": "Content-Type",
@@ -1238,121 +1926,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso=\""
+          "Value": "\"IW/AXGPBlvY3DJ+uHLAsyeYxtFCla/JNVUB0vFCqEj0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:31:22 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso="
-        }
-      ]
-    },
-    {
-      "Route": "index.html.gz",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\81s4vtvejm-kmeqsx4zfn.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "437"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Nlt8qf8/cdtO38Eb2WHW7stai64Ye0jW1a/WcOhL3G8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:31:22 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Nlt8qf8/cdtO38Eb2WHW7stai64Ye0jW1a/WcOhL3G8="
-        }
-      ]
-    },
-    {
-      "Route": "index.kmeqsx4zfn.html",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\81s4vtvejm-kmeqsx4zfn.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.002283105023"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "437"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Nlt8qf8/cdtO38Eb2WHW7stai64Ye0jW1a/WcOhL3G8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:31:22 GMT"
+          "Value": "Thu, 02 Jan 2025 17:43:09 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kmeqsx4zfn"
+          "Value": "dlycpbnccc"
         },
         {
           "Name": "label",
@@ -1360,13 +1948,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso="
+          "Value": "sha256-IW/AXGPBlvY3DJ+uHLAsyeYxtFCla/JNVUB0vFCqEj0="
         }
       ]
     },
     {
-      "Route": "index.kmeqsx4zfn.html",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\index.html",
+      "Route": "index.dlycpbnccc.html.gz",
+      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\81s4vtvejm-dlycpbnccc.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1375,7 +1963,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "849"
+          "Value": "658"
         },
         {
           "Name": "Content-Type",
@@ -1383,56 +1971,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso=\""
+          "Value": "\"GEXjAIum3xMWiiY60WsZxQjXZs3Y8uzFW9O2EEpK+Dg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:31:22 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "kmeqsx4zfn"
-        },
-        {
-          "Name": "label",
-          "Value": "index.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso="
-        }
-      ]
-    },
-    {
-      "Route": "index.kmeqsx4zfn.html.gz",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\81s4vtvejm-kmeqsx4zfn.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "437"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Nlt8qf8/cdtO38Eb2WHW7stai64Ye0jW1a/WcOhL3G8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:31:22 GMT"
+          "Value": "Thu, 02 Jan 2025 17:43:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1450,7 +1993,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kmeqsx4zfn"
+          "Value": "dlycpbnccc"
         },
         {
           "Name": "label",
@@ -1458,7 +2001,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Nlt8qf8/cdtO38Eb2WHW7stai64Ye0jW1a/WcOhL3G8="
+          "Value": "sha256-GEXjAIum3xMWiiY60WsZxQjXZs3Y8uzFW9O2EEpK+Dg="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\81s4vtvejm-dlycpbnccc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001517450683"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "658"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GEXjAIum3xMWiiY60WsZxQjXZs3Y8uzFW9O2EEpK+Dg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jan 2025 17:43:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"IW/AXGPBlvY3DJ+uHLAsyeYxtFCla/JNVUB0vFCqEj0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IW/AXGPBlvY3DJ+uHLAsyeYxtFCla/JNVUB0vFCqEj0="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1277"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IW/AXGPBlvY3DJ+uHLAsyeYxtFCla/JNVUB0vFCqEj0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jan 2025 17:43:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IW/AXGPBlvY3DJ+uHLAsyeYxtFCla/JNVUB0vFCqEj0="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\81s4vtvejm-dlycpbnccc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "658"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GEXjAIum3xMWiiY60WsZxQjXZs3Y8uzFW9O2EEpK+Dg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jan 2025 17:43:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GEXjAIum3xMWiiY60WsZxQjXZs3Y8uzFW9O2EEpK+Dg="
         }
       ]
     },
@@ -1648,7 +2328,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:36:54 GMT"
+          "Value": "Thu, 02 Jan 2025 17:31:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1709,7 +2389,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:36:54 GMT"
+          "Value": "Thu, 02 Jan 2025 17:31:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1754,7 +2434,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:36:54 GMT"
+          "Value": "Thu, 02 Jan 2025 17:31:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1946,7 +2626,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:36:54 GMT"
+          "Value": "Thu, 02 Jan 2025 17:31:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1999,7 +2679,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:36:54 GMT"
+          "Value": "Thu, 02 Jan 2025 17:31:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2036,7 +2716,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:36:54 GMT"
+          "Value": "Thu, 02 Jan 2025 17:31:37 GMT"
         },
         {
           "Name": "Cache-Control",

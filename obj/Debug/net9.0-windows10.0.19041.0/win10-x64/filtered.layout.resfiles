@@ -2,12 +2,16 @@ runtimes\win-x64\native\WebView2Loader.dll
 Components\Layout\MainLayout.razor.css
 Components\Layout\NavMenu.razor.css
 wwwroot\css\app.css.gz
+wwwroot\Images\undraw_savings_uwjn.svg.gz
 wwwroot\css\bootstrap\bootstrap.min.css.map.gz
 wwwroot\index.html.gz
+wwwroot\Images\undraw_yacht_rrg9.svg.gz
 wwwroot\MauiApp1.styles.css.gz
 wwwroot\css\app.css.br
+wwwroot\Images\undraw_savings_uwjn.svg.br
 wwwroot\css\bootstrap\bootstrap.min.css.map.br
 wwwroot\index.html.br
+wwwroot\Images\undraw_yacht_rrg9.svg.br
 wwwroot\MauiApp1.styles.css.br
 wwwroot\MauiApp1.7k7whb7rur.bundle.scp.css.br
 wwwroot\css\bootstrap\bootstrap.min.css.br
@@ -65,6 +69,11 @@ dotnet_bot.scale-125.png
 dotnet_bot.scale-150.png
 dotnet_bot.scale-200.png
 dotnet_bot.scale-400.png
+undraw_yacht_rrg9.scale-100.png
+undraw_yacht_rrg9.scale-125.png
+undraw_yacht_rrg9.scale-150.png
+undraw_yacht_rrg9.scale-200.png
+undraw_yacht_rrg9.scale-400.png
 splashSplashScreen.scale-100.png
 splashSplashScreen.scale-125.png
 splashSplashScreen.scale-150.png
@@ -76,4 +85,6 @@ AboutAssets.txt
 wwwroot\css\app.css
 wwwroot\css\bootstrap\bootstrap.min.css
 wwwroot\css\bootstrap\bootstrap.min.css.map
+wwwroot\Images\undraw_savings_uwjn.svg
+wwwroot\Images\undraw_yacht_rrg9.svg
 wwwroot\index.html

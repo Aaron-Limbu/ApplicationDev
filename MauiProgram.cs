@@ -14,6 +14,12 @@ namespace MauiApp1
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                 });
 
+            builder.Services.AddSingleton<UserService>();
+            builder.Services.AddSingleton<TransactionService>(); 
+            builder.Services.AddSingleton<CashinService>();
+            builder.Services.AddSingleton<CashOutService>();
+            builder.Services.AddSingleton<DebtService>();
+            builder.Services.AddSingleton<TagService>();
             builder.Services.AddMauiBlazorWebView();
 
 #if DEBUG

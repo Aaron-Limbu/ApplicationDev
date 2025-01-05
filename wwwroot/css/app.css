@@ -1,6 +1,10 @@
 ﻿/*#if (SampleContent)*/
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    height:100%; 
 }
 
 a, .btn-link {
@@ -73,7 +77,7 @@ h1:focus {
 
 @supports (-webkit-touch-callout: none) {
     .status-bar-safe-area {
-        display: flex;
+        display: flex;  
         position: sticky;
         top: 0;
         height: env(safe-area-inset-top);

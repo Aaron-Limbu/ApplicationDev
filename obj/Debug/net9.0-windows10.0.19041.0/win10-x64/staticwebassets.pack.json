@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\MauiApp1.styles.css"
     },
     {
+      "Id": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\Images\\undraw_savings_uwjn.svg",
+      "PackagePath": "staticwebassets\\Images\\undraw_savings_uwjn.svg"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\Images\\undraw_yacht_rrg9.svg",
+      "PackagePath": "staticwebassets\\Images\\undraw_yacht_rrg9.svg"
+    },
+    {
       "Id": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },

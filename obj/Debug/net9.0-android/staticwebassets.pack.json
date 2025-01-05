@@ -1,23 +1,31 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\MauiApp1.styles.css",
+      "Id": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\MauiApp1.styles.css",
       "PackagePath": "staticwebassets\\MauiApp1.styles.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\app.css",
+      "Id": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\Images\\undraw_savings_uwjn.svg",
+      "PackagePath": "staticwebassets\\Images\\undraw_savings_uwjn.svg"
+    },
+    {
+      "Id": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\Images\\undraw_yacht_rrg9.svg",
+      "PackagePath": "staticwebassets\\Images\\undraw_yacht_rrg9.svg"
+    },
+    {
+      "Id": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\index.html",
+      "Id": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "su2y7gz1Y9pZCMs8mExSLyH5vS0qg36bAnkxo1OoBw4=",
+  "Hash": "RaqwXdj0tySz8c1GcstarEE1ztyV3Qz1+I9J5yDLHcI=",
   "Source": "MauiApp1",
   "BasePath": "/",
   "Mode": "Root",
@@ -10,38 +10,59 @@
     {
       "Name": "MauiApp1\\wwwroot",
       "Source": "MauiApp1",
-      "ContentRoot": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\",
       "BasePath": "/",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\1joc8h8ni1-e5tk7yf482.gz",
+      "Identity": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\1joc8h8ni1-yad3rmdthl.gz",
       "SourceId": "MauiApp1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\",
+      "ContentRoot": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "css/app#[.{fingerprint=e5tk7yf482}]?.css.gz",
+      "RelativePath": "css/app#[.{fingerprint=yad3rmdthl}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\app.css",
+      "RelatedAsset": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\app.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "9sb0w9jnhl",
-      "Integrity": "qQ+vo7zHfjEIsR7Ks2Vsx0CJAT5ngXzV3IUcVLWwEfw=",
+      "Fingerprint": "0lp8ziam2d",
+      "Integrity": "hN6sk3rFPpswdfbgKnaTGGxseSuo7fwyhUJ2zT4S8yY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\app.css"
+      "OriginalItemSpec": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\app.css"
     },
     {
-      "Identity": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\75ych6u6ed-8inm30yfxf.gz",
+      "Identity": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\5bc72zn3wx-yv38s5socn.gz",
       "SourceId": "MauiApp1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\",
+      "ContentRoot": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "Images/undraw_savings_uwjn#[.{fingerprint=yv38s5socn}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\Images\\undraw_savings_uwjn.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "gncs9s888f",
+      "Integrity": "9LeMhJqiUnTXQD2npuPRsLP9z50zrNcXSlwAwoLeKFM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\Images\\undraw_savings_uwjn.svg"
+    },
+    {
+      "Identity": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\75ych6u6ed-8inm30yfxf.gz",
+      "SourceId": "MauiApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint=8inm30yfxf}]?.map.gz",
       "AssetKind": "All",
@@ -49,41 +70,62 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "RelatedAsset": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "fbl5ivwo6k",
       "Integrity": "Kym5HpgDYV8Caci50HDUPG6WCQ6nTP+8hy429w+zHVU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+      "OriginalItemSpec": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\81s4vtvejm-kmeqsx4zfn.gz",
+      "Identity": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\81s4vtvejm-dlycpbnccc.gz",
       "SourceId": "MauiApp1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\",
+      "ContentRoot": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "index#[.{fingerprint=kmeqsx4zfn}]?.html.gz",
+      "RelativePath": "index#[.{fingerprint=dlycpbnccc}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\index.html",
+      "RelatedAsset": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "emp2hzl8ca",
-      "Integrity": "Nlt8qf8/cdtO38Eb2WHW7stai64Ye0jW1a/WcOhL3G8=",
+      "Fingerprint": "szt919ap49",
+      "Integrity": "GEXjAIum3xMWiiY60WsZxQjXZs3Y8uzFW9O2EEpK+Dg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\index.html"
+      "OriginalItemSpec": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\oq58hdkxfw-7k7whb7rur.gz",
+      "Identity": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\eo4d8hiu2o-xghnp15qdi.gz",
+      "SourceId": "MauiApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "Images/undraw_yacht_rrg9#[.{fingerprint=xghnp15qdi}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\Images\\undraw_yacht_rrg9.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ok7r8jfxtp",
+      "Integrity": "6DxspuIkfTyS2U8hYasp/YTN/nbaQY1ZOOf13GnQwGM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\Images\\undraw_yacht_rrg9.svg"
+    },
+    {
+      "Identity": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\oq58hdkxfw-7k7whb7rur.gz",
       "SourceId": "MauiApp1",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\",
+      "ContentRoot": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\",
       "BasePath": "/",
       "RelativePath": "MauiApp1#[.{fingerprint=7k7whb7rur}]?.styles.css.gz",
       "AssetKind": "All",
@@ -91,41 +133,62 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\MauiApp1.styles.css",
+      "RelatedAsset": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\MauiApp1.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "oby6makih2",
       "Integrity": "vA7mxyfh7gm2NsltAJrNBMIwuczOhkdsgOK2fkDPZ14=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\MauiApp1.styles.css"
+      "OriginalItemSpec": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\MauiApp1.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\1joc8h8ni1-e5tk7yf482.br",
+      "Identity": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\1joc8h8ni1-yad3rmdthl.br",
       "SourceId": "MauiApp1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\",
+      "ContentRoot": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\",
       "BasePath": "/",
-      "RelativePath": "css/app#[.{fingerprint=e5tk7yf482}]?.css.br",
+      "RelativePath": "css/app#[.{fingerprint=yad3rmdthl}]?.css.br",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\app.css",
+      "RelatedAsset": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\app.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
-      "Fingerprint": "ix9166x7gh",
-      "Integrity": "eqlsvw/N8zKnAKc05YDjHT7YIDSUfr5wmQ20CD/lmXo=",
+      "Fingerprint": "61h0hxnhw7",
+      "Integrity": "OtvrzyJKuJAASiBjPVAZsEkng9jLb6463hs5KH1KISM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\app.css"
+      "OriginalItemSpec": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\app.css"
     },
     {
-      "Identity": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\75ych6u6ed-8inm30yfxf.br",
+      "Identity": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\5bc72zn3wx-yv38s5socn.br",
       "SourceId": "MauiApp1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\",
+      "ContentRoot": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\",
+      "BasePath": "/",
+      "RelativePath": "Images/undraw_savings_uwjn#[.{fingerprint=yv38s5socn}]?.svg.br",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\Images\\undraw_savings_uwjn.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "r709438ulc",
+      "Integrity": "V9mFdipr7XFNvgm4ZGXsOCMo4Uea59nbUJRCrrse4u0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\Images\\undraw_savings_uwjn.svg"
+    },
+    {
+      "Identity": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\75ych6u6ed-8inm30yfxf.br",
+      "SourceId": "MauiApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint=8inm30yfxf}]?.map.br",
       "AssetKind": "All",
@@ -133,41 +196,62 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "RelatedAsset": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
       "Fingerprint": "b4a1wrn6r6",
       "Integrity": "e0W3cltN7F1+gW+ilWd1J4N1PyvYvfyn8Js6/fJEqb0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+      "OriginalItemSpec": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\81s4vtvejm-kmeqsx4zfn.br",
+      "Identity": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\81s4vtvejm-dlycpbnccc.br",
       "SourceId": "MauiApp1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\",
+      "ContentRoot": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\",
       "BasePath": "/",
-      "RelativePath": "index#[.{fingerprint=kmeqsx4zfn}]?.html.br",
+      "RelativePath": "index#[.{fingerprint=dlycpbnccc}]?.html.br",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\index.html",
+      "RelatedAsset": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
-      "Fingerprint": "hykldh1s1r",
-      "Integrity": "WX785/MqMDV/c0P7tSkyykJZcNJgnPtn22Khn7UN/BU=",
+      "Fingerprint": "dxdudl1vcb",
+      "Integrity": "/+yccgNu0P/KHG1bZkKIkPmLIhkkXh8mff1AIDi4iAg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\index.html"
+      "OriginalItemSpec": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\oq58hdkxfw-7k7whb7rur.br",
+      "Identity": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\eo4d8hiu2o-xghnp15qdi.br",
+      "SourceId": "MauiApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\",
+      "BasePath": "/",
+      "RelativePath": "Images/undraw_yacht_rrg9#[.{fingerprint=xghnp15qdi}]?.svg.br",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\Images\\undraw_yacht_rrg9.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "2zclmwnl48",
+      "Integrity": "EsWeZWzcFZ2HBRp5Rwk8HPih1uA/esYIkeGGJHQvbNc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\Images\\undraw_yacht_rrg9.svg"
+    },
+    {
+      "Identity": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\oq58hdkxfw-7k7whb7rur.br",
       "SourceId": "MauiApp1",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\",
+      "ContentRoot": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\",
       "BasePath": "/",
       "RelativePath": "MauiApp1#[.{fingerprint=7k7whb7rur}]?.styles.css.br",
       "AssetKind": "All",
@@ -175,20 +259,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\MauiApp1.styles.css",
+      "RelatedAsset": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\MauiApp1.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
       "Fingerprint": "5220ga5jx5",
       "Integrity": "k20M2gj/TmmQ1HmwFkSO6uv2nmtgyDjC8awwDCrBTBY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\MauiApp1.styles.css"
+      "OriginalItemSpec": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\MauiApp1.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\qcuihj8de4-7k7whb7rur.br",
+      "Identity": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\qcuihj8de4-7k7whb7rur.br",
       "SourceId": "MauiApp1",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\",
+      "ContentRoot": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\",
       "BasePath": "/",
       "RelativePath": "MauiApp1#[.{fingerprint=7k7whb7rur}]!.bundle.scp.css.br",
       "AssetKind": "All",
@@ -196,20 +280,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\MauiApp1.bundle.scp.css",
+      "RelatedAsset": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\MauiApp1.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
       "Fingerprint": "5220ga5jx5",
       "Integrity": "k20M2gj/TmmQ1HmwFkSO6uv2nmtgyDjC8awwDCrBTBY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\MauiApp1.bundle.scp.css"
+      "OriginalItemSpec": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\MauiApp1.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\xe77xd5i00-6gzpyzhau4.br",
+      "Identity": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\xe77xd5i00-6gzpyzhau4.br",
       "SourceId": "MauiApp1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\",
+      "ContentRoot": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint=6gzpyzhau4}]?.css.br",
       "AssetKind": "All",
@@ -217,20 +301,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "RelatedAsset": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
       "Fingerprint": "2o883p7o84",
       "Integrity": "4jR0OWxmfzUr920AK8Yzn3GjSgWqtt7AtQDXrJ9OWmA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css"
+      "OriginalItemSpec": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\qcuihj8de4-7k7whb7rur.gz",
+      "Identity": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\qcuihj8de4-7k7whb7rur.gz",
       "SourceId": "MauiApp1",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\",
+      "ContentRoot": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\",
       "BasePath": "/",
       "RelativePath": "MauiApp1#[.{fingerprint=7k7whb7rur}]!.bundle.scp.css.gz",
       "AssetKind": "All",
@@ -238,20 +322,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\MauiApp1.bundle.scp.css",
+      "RelatedAsset": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\MauiApp1.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "oby6makih2",
       "Integrity": "vA7mxyfh7gm2NsltAJrNBMIwuczOhkdsgOK2fkDPZ14=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\MauiApp1.bundle.scp.css"
+      "OriginalItemSpec": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\MauiApp1.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\xe77xd5i00-6gzpyzhau4.gz",
+      "Identity": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\xe77xd5i00-6gzpyzhau4.gz",
       "SourceId": "MauiApp1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\",
+      "ContentRoot": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint=6gzpyzhau4}]?.css.gz",
       "AssetKind": "All",
@@ -259,20 +343,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "RelatedAsset": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "joqzyw7ssu",
       "Integrity": "LTxu1aeZz5yJTTAB+DiLnn5XOMdK1oiypNP/4JaeK9c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css"
+      "OriginalItemSpec": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\MauiApp1.styles.css",
+      "Identity": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\MauiApp1.styles.css",
       "SourceId": "MauiApp1",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\",
+      "ContentRoot": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\",
       "BasePath": "/",
       "RelativePath": "MauiApp1#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -287,13 +371,13 @@
       "Integrity": "R9vTFYF01J1QHJt5DWRQSaIWvkwWaoAKD96uFG4D6o4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\MauiApp1.styles.css"
+      "OriginalItemSpec": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\MauiApp1.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\MauiApp1.bundle.scp.css",
+      "Identity": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\MauiApp1.bundle.scp.css",
       "SourceId": "MauiApp1",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\",
+      "ContentRoot": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\",
       "BasePath": "/",
       "RelativePath": "MauiApp1#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -308,13 +392,13 @@
       "Integrity": "R9vTFYF01J1QHJt5DWRQSaIWvkwWaoAKD96uFG4D6o4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\MauiApp1.bundle.scp.css"
+      "OriginalItemSpec": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\MauiApp1.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\app.css",
+      "Identity": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\app.css",
       "SourceId": "MauiApp1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/app#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -325,17 +409,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "e5tk7yf482",
-      "Integrity": "bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU=",
+      "Fingerprint": "yad3rmdthl",
+      "Integrity": "Gol2ABabpgA9axOrTYp1Gwi9T709DOdDnxbcdaceQDg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\app.css"
     },
     {
-      "Identity": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "MauiApp1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -353,10 +437,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "MauiApp1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -374,10 +458,52 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\index.html",
+      "Identity": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\Images\\undraw_savings_uwjn.svg",
       "SourceId": "MauiApp1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Images/undraw_savings_uwjn#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yv38s5socn",
+      "Integrity": "Uqrj7UESS3KMnj4bMnmRy3IQDIN/9FhVSJgdXBG1UQU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\undraw_savings_uwjn.svg"
+    },
+    {
+      "Identity": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\Images\\undraw_yacht_rrg9.svg",
+      "SourceId": "MauiApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Images/undraw_yacht_rrg9#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xghnp15qdi",
+      "Integrity": "zxrR8a/Di2uUCIIzOgnEIZUxatRVWU3bO5HkwM9hvfQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\undraw_yacht_rrg9.svg"
+    },
+    {
+      "Identity": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\index.html",
+      "SourceId": "MauiApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "index#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -388,8 +514,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "kmeqsx4zfn",
-      "Integrity": "jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso=",
+      "Fingerprint": "dlycpbnccc",
+      "Integrity": "IW/AXGPBlvY3DJ+uHLAsyeYxtFCla/JNVUB0vFCqEj0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -398,12 +524,12 @@
   "Endpoints": [
     {
       "Route": "css/app.css",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\1joc8h8ni1-e5tk7yf482.gz",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\1joc8h8ni1-yad3rmdthl.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000571102227"
+          "Quality": "0.000559910414"
         }
       ],
       "ResponseHeaders": [
@@ -413,15 +539,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1750"
+          "Value": "1785"
         },
         {
           "Name": "ETag",
-          "Value": "\"qQ+vo7zHfjEIsR7Ks2Vsx0CJAT5ngXzV3IUcVLWwEfw=\""
+          "Value": "\"hN6sk3rFPpswdfbgKnaTGGxseSuo7fwyhUJ2zT4S8yY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:31:22 GMT"
+          "Value": "Sat, 04 Jan 2025 09:08:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -441,24 +567,24 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU=\""
+          "Value": "W/\"Gol2ABabpgA9axOrTYp1Gwi9T709DOdDnxbcdaceQDg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU="
+          "Value": "sha256-Gol2ABabpgA9axOrTYp1Gwi9T709DOdDnxbcdaceQDg="
         }
       ]
     },
     {
       "Route": "css/app.css",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\1joc8h8ni1-e5tk7yf482.br",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\1joc8h8ni1-yad3rmdthl.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.000648508431"
+          "Quality": "0.000641848524"
         }
       ],
       "ResponseHeaders": [
@@ -468,15 +594,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1541"
+          "Value": "1557"
         },
         {
           "Name": "ETag",
-          "Value": "\"eqlsvw/N8zKnAKc05YDjHT7YIDSUfr5wmQ20CD/lmXo=\""
+          "Value": "\"OtvrzyJKuJAASiBjPVAZsEkng9jLb6463hs5KH1KISM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:31:22 GMT"
+          "Value": "Sat, 04 Jan 2025 09:08:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -496,19 +622,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU=\""
+          "Value": "W/\"Gol2ABabpgA9axOrTYp1Gwi9T709DOdDnxbcdaceQDg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU="
+          "Value": "sha256-Gol2ABabpgA9axOrTYp1Gwi9T709DOdDnxbcdaceQDg="
         }
       ]
     },
     {
       "Route": "css/app.css",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\app.css",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -517,7 +643,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3376"
+          "Value": "3462"
         },
         {
           "Name": "Content-Type",
@@ -525,11 +651,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU=\""
+          "Value": "\"Gol2ABabpgA9axOrTYp1Gwi9T709DOdDnxbcdaceQDg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:31:22 GMT"
+          "Value": "Sat, 04 Jan 2025 09:08:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -539,13 +665,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU="
+          "Value": "sha256-Gol2ABabpgA9axOrTYp1Gwi9T709DOdDnxbcdaceQDg="
         }
       ]
     },
     {
       "Route": "css/app.css.br",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\1joc8h8ni1-e5tk7yf482.br",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\1joc8h8ni1-yad3rmdthl.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -554,7 +680,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1541"
+          "Value": "1557"
         },
         {
           "Name": "Content-Type",
@@ -562,11 +688,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"eqlsvw/N8zKnAKc05YDjHT7YIDSUfr5wmQ20CD/lmXo=\""
+          "Value": "\"OtvrzyJKuJAASiBjPVAZsEkng9jLb6463hs5KH1KISM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:31:22 GMT"
+          "Value": "Sat, 04 Jan 2025 09:08:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -584,13 +710,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-eqlsvw/N8zKnAKc05YDjHT7YIDSUfr5wmQ20CD/lmXo="
+          "Value": "sha256-OtvrzyJKuJAASiBjPVAZsEkng9jLb6463hs5KH1KISM="
         }
       ]
     },
     {
       "Route": "css/app.css.gz",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\1joc8h8ni1-e5tk7yf482.gz",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\1joc8h8ni1-yad3rmdthl.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -599,7 +725,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1750"
+          "Value": "1785"
         },
         {
           "Name": "Content-Type",
@@ -607,11 +733,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qQ+vo7zHfjEIsR7Ks2Vsx0CJAT5ngXzV3IUcVLWwEfw=\""
+          "Value": "\"hN6sk3rFPpswdfbgKnaTGGxseSuo7fwyhUJ2zT4S8yY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:31:22 GMT"
+          "Value": "Sat, 04 Jan 2025 09:08:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -629,18 +755,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qQ+vo7zHfjEIsR7Ks2Vsx0CJAT5ngXzV3IUcVLWwEfw="
+          "Value": "sha256-hN6sk3rFPpswdfbgKnaTGGxseSuo7fwyhUJ2zT4S8yY="
         }
       ]
     },
     {
-      "Route": "css/app.e5tk7yf482.css",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\1joc8h8ni1-e5tk7yf482.gz",
+      "Route": "css/app.yad3rmdthl.css",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\1joc8h8ni1-yad3rmdthl.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000571102227"
+          "Quality": "0.000559910414"
         }
       ],
       "ResponseHeaders": [
@@ -650,15 +776,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1750"
+          "Value": "1785"
         },
         {
           "Name": "ETag",
-          "Value": "\"qQ+vo7zHfjEIsR7Ks2Vsx0CJAT5ngXzV3IUcVLWwEfw=\""
+          "Value": "\"hN6sk3rFPpswdfbgKnaTGGxseSuo7fwyhUJ2zT4S8yY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:31:22 GMT"
+          "Value": "Sat, 04 Jan 2025 09:08:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -678,13 +804,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU=\""
+          "Value": "W/\"Gol2ABabpgA9axOrTYp1Gwi9T709DOdDnxbcdaceQDg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e5tk7yf482"
+          "Value": "yad3rmdthl"
         },
         {
           "Name": "label",
@@ -692,18 +818,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU="
+          "Value": "sha256-Gol2ABabpgA9axOrTYp1Gwi9T709DOdDnxbcdaceQDg="
         }
       ]
     },
     {
-      "Route": "css/app.e5tk7yf482.css",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\1joc8h8ni1-e5tk7yf482.br",
+      "Route": "css/app.yad3rmdthl.css",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\1joc8h8ni1-yad3rmdthl.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.000648508431"
+          "Quality": "0.000641848524"
         }
       ],
       "ResponseHeaders": [
@@ -713,15 +839,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1541"
+          "Value": "1557"
         },
         {
           "Name": "ETag",
-          "Value": "\"eqlsvw/N8zKnAKc05YDjHT7YIDSUfr5wmQ20CD/lmXo=\""
+          "Value": "\"OtvrzyJKuJAASiBjPVAZsEkng9jLb6463hs5KH1KISM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:31:22 GMT"
+          "Value": "Sat, 04 Jan 2025 09:08:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -741,13 +867,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU=\""
+          "Value": "W/\"Gol2ABabpgA9axOrTYp1Gwi9T709DOdDnxbcdaceQDg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e5tk7yf482"
+          "Value": "yad3rmdthl"
         },
         {
           "Name": "label",
@@ -755,13 +881,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU="
+          "Value": "sha256-Gol2ABabpgA9axOrTYp1Gwi9T709DOdDnxbcdaceQDg="
         }
       ]
     },
     {
-      "Route": "css/app.e5tk7yf482.css",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\app.css",
+      "Route": "css/app.yad3rmdthl.css",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -770,7 +896,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3376"
+          "Value": "3462"
         },
         {
           "Name": "Content-Type",
@@ -778,11 +904,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU=\""
+          "Value": "\"Gol2ABabpgA9axOrTYp1Gwi9T709DOdDnxbcdaceQDg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:31:22 GMT"
+          "Value": "Sat, 04 Jan 2025 09:08:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -792,7 +918,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e5tk7yf482"
+          "Value": "yad3rmdthl"
         },
         {
           "Name": "label",
@@ -800,13 +926,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU="
+          "Value": "sha256-Gol2ABabpgA9axOrTYp1Gwi9T709DOdDnxbcdaceQDg="
         }
       ]
     },
     {
-      "Route": "css/app.e5tk7yf482.css.br",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\1joc8h8ni1-e5tk7yf482.br",
+      "Route": "css/app.yad3rmdthl.css.br",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\1joc8h8ni1-yad3rmdthl.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -815,7 +941,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1541"
+          "Value": "1557"
         },
         {
           "Name": "Content-Type",
@@ -823,11 +949,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"eqlsvw/N8zKnAKc05YDjHT7YIDSUfr5wmQ20CD/lmXo=\""
+          "Value": "\"OtvrzyJKuJAASiBjPVAZsEkng9jLb6463hs5KH1KISM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:31:22 GMT"
+          "Value": "Sat, 04 Jan 2025 09:08:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -845,7 +971,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e5tk7yf482"
+          "Value": "yad3rmdthl"
         },
         {
           "Name": "label",
@@ -853,13 +979,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-eqlsvw/N8zKnAKc05YDjHT7YIDSUfr5wmQ20CD/lmXo="
+          "Value": "sha256-OtvrzyJKuJAASiBjPVAZsEkng9jLb6463hs5KH1KISM="
         }
       ]
     },
     {
-      "Route": "css/app.e5tk7yf482.css.gz",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\1joc8h8ni1-e5tk7yf482.gz",
+      "Route": "css/app.yad3rmdthl.css.gz",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\1joc8h8ni1-yad3rmdthl.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -868,7 +994,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1750"
+          "Value": "1785"
         },
         {
           "Name": "Content-Type",
@@ -876,11 +1002,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qQ+vo7zHfjEIsR7Ks2Vsx0CJAT5ngXzV3IUcVLWwEfw=\""
+          "Value": "\"hN6sk3rFPpswdfbgKnaTGGxseSuo7fwyhUJ2zT4S8yY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:31:22 GMT"
+          "Value": "Sat, 04 Jan 2025 09:08:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -898,7 +1024,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e5tk7yf482"
+          "Value": "yad3rmdthl"
         },
         {
           "Name": "label",
@@ -906,13 +1032,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-qQ+vo7zHfjEIsR7Ks2Vsx0CJAT5ngXzV3IUcVLWwEfw="
+          "Value": "sha256-hN6sk3rFPpswdfbgKnaTGGxseSuo7fwyhUJ2zT4S8yY="
         }
       ]
     },
     {
       "Route": "css/bootstrap/bootstrap.min.6gzpyzhau4.css",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\xe77xd5i00-6gzpyzhau4.br",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\xe77xd5i00-6gzpyzhau4.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -975,7 +1101,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.6gzpyzhau4.css",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\xe77xd5i00-6gzpyzhau4.gz",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\xe77xd5i00-6gzpyzhau4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1038,7 +1164,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.6gzpyzhau4.css",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1083,7 +1209,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.6gzpyzhau4.css.br",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\xe77xd5i00-6gzpyzhau4.br",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\xe77xd5i00-6gzpyzhau4.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1136,7 +1262,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.6gzpyzhau4.css.gz",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\xe77xd5i00-6gzpyzhau4.gz",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\xe77xd5i00-6gzpyzhau4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1189,7 +1315,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\xe77xd5i00-6gzpyzhau4.br",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\xe77xd5i00-6gzpyzhau4.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1244,7 +1370,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\xe77xd5i00-6gzpyzhau4.gz",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\xe77xd5i00-6gzpyzhau4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1299,7 +1425,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1336,7 +1462,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\75ych6u6ed-8inm30yfxf.gz",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\75ych6u6ed-8inm30yfxf.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1399,7 +1525,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\75ych6u6ed-8inm30yfxf.br",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\75ych6u6ed-8inm30yfxf.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1462,7 +1588,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1507,7 +1633,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map.br",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\75ych6u6ed-8inm30yfxf.br",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\75ych6u6ed-8inm30yfxf.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1560,7 +1686,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map.gz",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\75ych6u6ed-8inm30yfxf.gz",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\75ych6u6ed-8inm30yfxf.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1613,7 +1739,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.br",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\xe77xd5i00-6gzpyzhau4.br",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\xe77xd5i00-6gzpyzhau4.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1658,7 +1784,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.gz",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\xe77xd5i00-6gzpyzhau4.gz",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\xe77xd5i00-6gzpyzhau4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1703,7 +1829,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\75ych6u6ed-8inm30yfxf.gz",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\75ych6u6ed-8inm30yfxf.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1758,7 +1884,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\75ych6u6ed-8inm30yfxf.br",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\75ych6u6ed-8inm30yfxf.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1813,7 +1939,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1850,7 +1976,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.map.br",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\75ych6u6ed-8inm30yfxf.br",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\75ych6u6ed-8inm30yfxf.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1895,7 +2021,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.map.gz",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\75ych6u6ed-8inm30yfxf.gz",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\75ych6u6ed-8inm30yfxf.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1939,13 +2065,13 @@
       ]
     },
     {
-      "Route": "index.html",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\81s4vtvejm-kmeqsx4zfn.gz",
+      "Route": "Images/undraw_savings_uwjn.svg",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\5bc72zn3wx-yv38s5socn.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002283105023"
+          "Quality": "0.000156176792"
         }
       ],
       "ResponseHeaders": [
@@ -1955,15 +2081,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "437"
+          "Value": "6402"
         },
         {
           "Name": "ETag",
-          "Value": "\"Nlt8qf8/cdtO38Eb2WHW7stai64Ye0jW1a/WcOhL3G8=\""
+          "Value": "\"9LeMhJqiUnTXQD2npuPRsLP9z50zrNcXSlwAwoLeKFM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:31:22 GMT"
+          "Value": "Sat, 04 Jan 2025 09:25:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1979,28 +2105,28 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "text/html"
+          "Value": "image/svg+xml"
         },
         {
           "Name": "ETag",
-          "Value": "W/\"jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso=\""
+          "Value": "W/\"Uqrj7UESS3KMnj4bMnmRy3IQDIN/9FhVSJgdXBG1UQU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso="
+          "Value": "sha256-Uqrj7UESS3KMnj4bMnmRy3IQDIN/9FhVSJgdXBG1UQU="
         }
       ]
     },
     {
-      "Route": "index.html",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\81s4vtvejm-kmeqsx4zfn.br",
+      "Route": "Images/undraw_savings_uwjn.svg",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\5bc72zn3wx-yv38s5socn.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.003215434084"
+          "Quality": "0.000181554103"
         }
       ],
       "ResponseHeaders": [
@@ -2010,15 +2136,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "310"
+          "Value": "5507"
         },
         {
           "Name": "ETag",
-          "Value": "\"WX785/MqMDV/c0P7tSkyykJZcNJgnPtn22Khn7UN/BU=\""
+          "Value": "\"V9mFdipr7XFNvgm4ZGXsOCMo4Uea59nbUJRCrrse4u0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:31:22 GMT"
+          "Value": "Sat, 04 Jan 2025 09:25:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2034,23 +2160,23 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "text/html"
+          "Value": "image/svg+xml"
         },
         {
           "Name": "ETag",
-          "Value": "W/\"jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso=\""
+          "Value": "W/\"Uqrj7UESS3KMnj4bMnmRy3IQDIN/9FhVSJgdXBG1UQU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso="
+          "Value": "sha256-Uqrj7UESS3KMnj4bMnmRy3IQDIN/9FhVSJgdXBG1UQU="
         }
       ]
     },
     {
-      "Route": "index.html",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\index.html",
+      "Route": "Images/undraw_savings_uwjn.svg",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\Images\\undraw_savings_uwjn.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2059,35 +2185,35 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "849"
+          "Value": "14326"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/html"
+          "Value": "image/svg+xml"
         },
         {
           "Name": "ETag",
-          "Value": "\"jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso=\""
+          "Value": "\"Uqrj7UESS3KMnj4bMnmRy3IQDIN/9FhVSJgdXBG1UQU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:31:22 GMT"
+          "Value": "Sat, 04 Jan 2025 09:25:19 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso="
+          "Value": "sha256-Uqrj7UESS3KMnj4bMnmRy3IQDIN/9FhVSJgdXBG1UQU="
         }
       ]
     },
     {
-      "Route": "index.html.br",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\81s4vtvejm-kmeqsx4zfn.br",
+      "Route": "Images/undraw_savings_uwjn.svg.br",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\5bc72zn3wx-yv38s5socn.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2096,19 +2222,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "310"
+          "Value": "5507"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/html"
+          "Value": "image/svg+xml"
         },
         {
           "Name": "ETag",
-          "Value": "\"WX785/MqMDV/c0P7tSkyykJZcNJgnPtn22Khn7UN/BU=\""
+          "Value": "\"V9mFdipr7XFNvgm4ZGXsOCMo4Uea59nbUJRCrrse4u0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:31:22 GMT"
+          "Value": "Sat, 04 Jan 2025 09:25:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2126,13 +2252,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-WX785/MqMDV/c0P7tSkyykJZcNJgnPtn22Khn7UN/BU="
+          "Value": "sha256-V9mFdipr7XFNvgm4ZGXsOCMo4Uea59nbUJRCrrse4u0="
         }
       ]
     },
     {
-      "Route": "index.html.gz",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\81s4vtvejm-kmeqsx4zfn.gz",
+      "Route": "Images/undraw_savings_uwjn.svg.gz",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\5bc72zn3wx-yv38s5socn.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2141,19 +2267,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "437"
+          "Value": "6402"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/html"
+          "Value": "image/svg+xml"
         },
         {
           "Name": "ETag",
-          "Value": "\"Nlt8qf8/cdtO38Eb2WHW7stai64Ye0jW1a/WcOhL3G8=\""
+          "Value": "\"9LeMhJqiUnTXQD2npuPRsLP9z50zrNcXSlwAwoLeKFM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:31:22 GMT"
+          "Value": "Sat, 04 Jan 2025 09:25:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2171,18 +2297,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Nlt8qf8/cdtO38Eb2WHW7stai64Ye0jW1a/WcOhL3G8="
+          "Value": "sha256-9LeMhJqiUnTXQD2npuPRsLP9z50zrNcXSlwAwoLeKFM="
         }
       ]
     },
     {
-      "Route": "index.kmeqsx4zfn.html",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\81s4vtvejm-kmeqsx4zfn.gz",
+      "Route": "Images/undraw_savings_uwjn.yv38s5socn.svg",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\5bc72zn3wx-yv38s5socn.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002283105023"
+          "Quality": "0.000156176792"
         }
       ],
       "ResponseHeaders": [
@@ -2192,15 +2318,806 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "437"
+          "Value": "6402"
         },
         {
           "Name": "ETag",
-          "Value": "\"Nlt8qf8/cdtO38Eb2WHW7stai64Ye0jW1a/WcOhL3G8=\""
+          "Value": "\"9LeMhJqiUnTXQD2npuPRsLP9z50zrNcXSlwAwoLeKFM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:31:22 GMT"
+          "Value": "Sat, 04 Jan 2025 09:25:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Uqrj7UESS3KMnj4bMnmRy3IQDIN/9FhVSJgdXBG1UQU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yv38s5socn"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/undraw_savings_uwjn.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uqrj7UESS3KMnj4bMnmRy3IQDIN/9FhVSJgdXBG1UQU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/undraw_savings_uwjn.yv38s5socn.svg",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\5bc72zn3wx-yv38s5socn.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000181554103"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5507"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V9mFdipr7XFNvgm4ZGXsOCMo4Uea59nbUJRCrrse4u0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 09:25:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Uqrj7UESS3KMnj4bMnmRy3IQDIN/9FhVSJgdXBG1UQU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yv38s5socn"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/undraw_savings_uwjn.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uqrj7UESS3KMnj4bMnmRy3IQDIN/9FhVSJgdXBG1UQU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/undraw_savings_uwjn.yv38s5socn.svg",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\Images\\undraw_savings_uwjn.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14326"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Uqrj7UESS3KMnj4bMnmRy3IQDIN/9FhVSJgdXBG1UQU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 09:25:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yv38s5socn"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/undraw_savings_uwjn.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uqrj7UESS3KMnj4bMnmRy3IQDIN/9FhVSJgdXBG1UQU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/undraw_savings_uwjn.yv38s5socn.svg.br",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\5bc72zn3wx-yv38s5socn.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5507"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V9mFdipr7XFNvgm4ZGXsOCMo4Uea59nbUJRCrrse4u0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 09:25:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yv38s5socn"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/undraw_savings_uwjn.svg.br"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-V9mFdipr7XFNvgm4ZGXsOCMo4Uea59nbUJRCrrse4u0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/undraw_savings_uwjn.yv38s5socn.svg.gz",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\5bc72zn3wx-yv38s5socn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6402"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9LeMhJqiUnTXQD2npuPRsLP9z50zrNcXSlwAwoLeKFM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 04 Jan 2025 09:25:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yv38s5socn"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/undraw_savings_uwjn.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9LeMhJqiUnTXQD2npuPRsLP9z50zrNcXSlwAwoLeKFM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/undraw_yacht_rrg9.svg",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\eo4d8hiu2o-xghnp15qdi.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000658761528"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1517"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6DxspuIkfTyS2U8hYasp/YTN/nbaQY1ZOOf13GnQwGM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 21:25:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zxrR8a/Di2uUCIIzOgnEIZUxatRVWU3bO5HkwM9hvfQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zxrR8a/Di2uUCIIzOgnEIZUxatRVWU3bO5HkwM9hvfQ="
+        }
+      ]
+    },
+    {
+      "Route": "Images/undraw_yacht_rrg9.svg",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\eo4d8hiu2o-xghnp15qdi.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000745156483"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1341"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EsWeZWzcFZ2HBRp5Rwk8HPih1uA/esYIkeGGJHQvbNc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 21:25:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zxrR8a/Di2uUCIIzOgnEIZUxatRVWU3bO5HkwM9hvfQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zxrR8a/Di2uUCIIzOgnEIZUxatRVWU3bO5HkwM9hvfQ="
+        }
+      ]
+    },
+    {
+      "Route": "Images/undraw_yacht_rrg9.svg",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\Images\\undraw_yacht_rrg9.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4195"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zxrR8a/Di2uUCIIzOgnEIZUxatRVWU3bO5HkwM9hvfQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 21:25:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zxrR8a/Di2uUCIIzOgnEIZUxatRVWU3bO5HkwM9hvfQ="
+        }
+      ]
+    },
+    {
+      "Route": "Images/undraw_yacht_rrg9.svg.br",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\eo4d8hiu2o-xghnp15qdi.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1341"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EsWeZWzcFZ2HBRp5Rwk8HPih1uA/esYIkeGGJHQvbNc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 21:25:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EsWeZWzcFZ2HBRp5Rwk8HPih1uA/esYIkeGGJHQvbNc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/undraw_yacht_rrg9.svg.gz",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\eo4d8hiu2o-xghnp15qdi.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1517"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6DxspuIkfTyS2U8hYasp/YTN/nbaQY1ZOOf13GnQwGM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 21:25:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6DxspuIkfTyS2U8hYasp/YTN/nbaQY1ZOOf13GnQwGM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/undraw_yacht_rrg9.xghnp15qdi.svg",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\eo4d8hiu2o-xghnp15qdi.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000658761528"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1517"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6DxspuIkfTyS2U8hYasp/YTN/nbaQY1ZOOf13GnQwGM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 21:25:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zxrR8a/Di2uUCIIzOgnEIZUxatRVWU3bO5HkwM9hvfQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xghnp15qdi"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/undraw_yacht_rrg9.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zxrR8a/Di2uUCIIzOgnEIZUxatRVWU3bO5HkwM9hvfQ="
+        }
+      ]
+    },
+    {
+      "Route": "Images/undraw_yacht_rrg9.xghnp15qdi.svg",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\eo4d8hiu2o-xghnp15qdi.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000745156483"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1341"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EsWeZWzcFZ2HBRp5Rwk8HPih1uA/esYIkeGGJHQvbNc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 21:25:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zxrR8a/Di2uUCIIzOgnEIZUxatRVWU3bO5HkwM9hvfQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xghnp15qdi"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/undraw_yacht_rrg9.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zxrR8a/Di2uUCIIzOgnEIZUxatRVWU3bO5HkwM9hvfQ="
+        }
+      ]
+    },
+    {
+      "Route": "Images/undraw_yacht_rrg9.xghnp15qdi.svg",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\Images\\undraw_yacht_rrg9.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4195"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zxrR8a/Di2uUCIIzOgnEIZUxatRVWU3bO5HkwM9hvfQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 21:25:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xghnp15qdi"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/undraw_yacht_rrg9.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zxrR8a/Di2uUCIIzOgnEIZUxatRVWU3bO5HkwM9hvfQ="
+        }
+      ]
+    },
+    {
+      "Route": "Images/undraw_yacht_rrg9.xghnp15qdi.svg.br",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\eo4d8hiu2o-xghnp15qdi.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1341"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EsWeZWzcFZ2HBRp5Rwk8HPih1uA/esYIkeGGJHQvbNc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 21:25:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xghnp15qdi"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/undraw_yacht_rrg9.svg.br"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EsWeZWzcFZ2HBRp5Rwk8HPih1uA/esYIkeGGJHQvbNc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/undraw_yacht_rrg9.xghnp15qdi.svg.gz",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\eo4d8hiu2o-xghnp15qdi.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1517"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6DxspuIkfTyS2U8hYasp/YTN/nbaQY1ZOOf13GnQwGM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 21:25:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xghnp15qdi"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/undraw_yacht_rrg9.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6DxspuIkfTyS2U8hYasp/YTN/nbaQY1ZOOf13GnQwGM="
+        }
+      ]
+    },
+    {
+      "Route": "index.dlycpbnccc.html",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\81s4vtvejm-dlycpbnccc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001517450683"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "658"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GEXjAIum3xMWiiY60WsZxQjXZs3Y8uzFW9O2EEpK+Dg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jan 2025 17:43:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2220,13 +3137,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso=\""
+          "Value": "W/\"IW/AXGPBlvY3DJ+uHLAsyeYxtFCla/JNVUB0vFCqEj0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kmeqsx4zfn"
+          "Value": "dlycpbnccc"
         },
         {
           "Name": "label",
@@ -2234,18 +3151,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso="
+          "Value": "sha256-IW/AXGPBlvY3DJ+uHLAsyeYxtFCla/JNVUB0vFCqEj0="
         }
       ]
     },
     {
-      "Route": "index.kmeqsx4zfn.html",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\81s4vtvejm-kmeqsx4zfn.br",
+      "Route": "index.dlycpbnccc.html",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\81s4vtvejm-dlycpbnccc.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.003215434084"
+          "Quality": "0.002008032129"
         }
       ],
       "ResponseHeaders": [
@@ -2255,15 +3172,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "310"
+          "Value": "497"
         },
         {
           "Name": "ETag",
-          "Value": "\"WX785/MqMDV/c0P7tSkyykJZcNJgnPtn22Khn7UN/BU=\""
+          "Value": "\"/+yccgNu0P/KHG1bZkKIkPmLIhkkXh8mff1AIDi4iAg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:31:22 GMT"
+          "Value": "Thu, 02 Jan 2025 17:43:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2283,13 +3200,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso=\""
+          "Value": "W/\"IW/AXGPBlvY3DJ+uHLAsyeYxtFCla/JNVUB0vFCqEj0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kmeqsx4zfn"
+          "Value": "dlycpbnccc"
         },
         {
           "Name": "label",
@@ -2297,13 +3214,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso="
+          "Value": "sha256-IW/AXGPBlvY3DJ+uHLAsyeYxtFCla/JNVUB0vFCqEj0="
         }
       ]
     },
     {
-      "Route": "index.kmeqsx4zfn.html",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\index.html",
+      "Route": "index.dlycpbnccc.html",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2312,7 +3229,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "849"
+          "Value": "1277"
         },
         {
           "Name": "Content-Type",
@@ -2320,11 +3237,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso=\""
+          "Value": "\"IW/AXGPBlvY3DJ+uHLAsyeYxtFCla/JNVUB0vFCqEj0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:31:22 GMT"
+          "Value": "Thu, 02 Jan 2025 17:43:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2334,7 +3251,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kmeqsx4zfn"
+          "Value": "dlycpbnccc"
         },
         {
           "Name": "label",
@@ -2342,13 +3259,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jIwJDSmI/Wd5ysrYSI3bWPh3SOuOGeRZcSBuxMeCuso="
+          "Value": "sha256-IW/AXGPBlvY3DJ+uHLAsyeYxtFCla/JNVUB0vFCqEj0="
         }
       ]
     },
     {
-      "Route": "index.kmeqsx4zfn.html.br",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\81s4vtvejm-kmeqsx4zfn.br",
+      "Route": "index.dlycpbnccc.html.br",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\81s4vtvejm-dlycpbnccc.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2357,7 +3274,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "310"
+          "Value": "497"
         },
         {
           "Name": "Content-Type",
@@ -2365,11 +3282,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WX785/MqMDV/c0P7tSkyykJZcNJgnPtn22Khn7UN/BU=\""
+          "Value": "\"/+yccgNu0P/KHG1bZkKIkPmLIhkkXh8mff1AIDi4iAg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:31:22 GMT"
+          "Value": "Thu, 02 Jan 2025 17:43:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2387,7 +3304,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kmeqsx4zfn"
+          "Value": "dlycpbnccc"
         },
         {
           "Name": "label",
@@ -2395,13 +3312,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-WX785/MqMDV/c0P7tSkyykJZcNJgnPtn22Khn7UN/BU="
+          "Value": "sha256-/+yccgNu0P/KHG1bZkKIkPmLIhkkXh8mff1AIDi4iAg="
         }
       ]
     },
     {
-      "Route": "index.kmeqsx4zfn.html.gz",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\81s4vtvejm-kmeqsx4zfn.gz",
+      "Route": "index.dlycpbnccc.html.gz",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\81s4vtvejm-dlycpbnccc.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2410,7 +3327,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "437"
+          "Value": "658"
         },
         {
           "Name": "Content-Type",
@@ -2418,11 +3335,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Nlt8qf8/cdtO38Eb2WHW7stai64Ye0jW1a/WcOhL3G8=\""
+          "Value": "\"GEXjAIum3xMWiiY60WsZxQjXZs3Y8uzFW9O2EEpK+Dg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:31:22 GMT"
+          "Value": "Thu, 02 Jan 2025 17:43:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2440,7 +3357,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kmeqsx4zfn"
+          "Value": "dlycpbnccc"
         },
         {
           "Name": "label",
@@ -2448,13 +3365,250 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Nlt8qf8/cdtO38Eb2WHW7stai64Ye0jW1a/WcOhL3G8="
+          "Value": "sha256-GEXjAIum3xMWiiY60WsZxQjXZs3Y8uzFW9O2EEpK+Dg="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\81s4vtvejm-dlycpbnccc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001517450683"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "658"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GEXjAIum3xMWiiY60WsZxQjXZs3Y8uzFW9O2EEpK+Dg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jan 2025 17:43:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"IW/AXGPBlvY3DJ+uHLAsyeYxtFCla/JNVUB0vFCqEj0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IW/AXGPBlvY3DJ+uHLAsyeYxtFCla/JNVUB0vFCqEj0="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\81s4vtvejm-dlycpbnccc.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.002008032129"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "497"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/+yccgNu0P/KHG1bZkKIkPmLIhkkXh8mff1AIDi4iAg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jan 2025 17:43:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"IW/AXGPBlvY3DJ+uHLAsyeYxtFCla/JNVUB0vFCqEj0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IW/AXGPBlvY3DJ+uHLAsyeYxtFCla/JNVUB0vFCqEj0="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1277"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IW/AXGPBlvY3DJ+uHLAsyeYxtFCla/JNVUB0vFCqEj0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jan 2025 17:43:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IW/AXGPBlvY3DJ+uHLAsyeYxtFCla/JNVUB0vFCqEj0="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.br",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\81s4vtvejm-dlycpbnccc.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "497"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/+yccgNu0P/KHG1bZkKIkPmLIhkkXh8mff1AIDi4iAg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jan 2025 17:43:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/+yccgNu0P/KHG1bZkKIkPmLIhkkXh8mff1AIDi4iAg="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\81s4vtvejm-dlycpbnccc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "658"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GEXjAIum3xMWiiY60WsZxQjXZs3Y8uzFW9O2EEpK+Dg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jan 2025 17:43:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GEXjAIum3xMWiiY60WsZxQjXZs3Y8uzFW9O2EEpK+Dg="
         }
       ]
     },
     {
       "Route": "MauiApp1.7k7whb7rur.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\qcuihj8de4-7k7whb7rur.br",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\qcuihj8de4-7k7whb7rur.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2517,7 +3671,7 @@
     },
     {
       "Route": "MauiApp1.7k7whb7rur.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\qcuihj8de4-7k7whb7rur.gz",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\qcuihj8de4-7k7whb7rur.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2580,7 +3734,7 @@
     },
     {
       "Route": "MauiApp1.7k7whb7rur.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\MauiApp1.bundle.scp.css",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\MauiApp1.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2625,7 +3779,7 @@
     },
     {
       "Route": "MauiApp1.7k7whb7rur.bundle.scp.css.br",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\qcuihj8de4-7k7whb7rur.br",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\qcuihj8de4-7k7whb7rur.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2678,7 +3832,7 @@
     },
     {
       "Route": "MauiApp1.7k7whb7rur.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\qcuihj8de4-7k7whb7rur.gz",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\qcuihj8de4-7k7whb7rur.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2731,7 +3885,7 @@
     },
     {
       "Route": "MauiApp1.7k7whb7rur.styles.css",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\oq58hdkxfw-7k7whb7rur.gz",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\oq58hdkxfw-7k7whb7rur.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2754,7 +3908,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:37:29 GMT"
+          "Value": "Thu, 02 Jan 2025 17:31:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2794,7 +3948,7 @@
     },
     {
       "Route": "MauiApp1.7k7whb7rur.styles.css",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\oq58hdkxfw-7k7whb7rur.br",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\oq58hdkxfw-7k7whb7rur.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2817,7 +3971,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:37:29 GMT"
+          "Value": "Thu, 02 Jan 2025 17:31:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2857,7 +4011,7 @@
     },
     {
       "Route": "MauiApp1.7k7whb7rur.styles.css",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\MauiApp1.styles.css",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\MauiApp1.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2878,7 +4032,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:37:29 GMT"
+          "Value": "Thu, 02 Jan 2025 17:31:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2902,7 +4056,7 @@
     },
     {
       "Route": "MauiApp1.7k7whb7rur.styles.css.br",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\oq58hdkxfw-7k7whb7rur.br",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\oq58hdkxfw-7k7whb7rur.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2923,7 +4077,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:37:29 GMT"
+          "Value": "Thu, 02 Jan 2025 17:31:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2955,7 +4109,7 @@
     },
     {
       "Route": "MauiApp1.7k7whb7rur.styles.css.gz",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\oq58hdkxfw-7k7whb7rur.gz",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\oq58hdkxfw-7k7whb7rur.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2976,7 +4130,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:37:29 GMT"
+          "Value": "Thu, 02 Jan 2025 17:31:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3008,7 +4162,7 @@
     },
     {
       "Route": "MauiApp1.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\qcuihj8de4-7k7whb7rur.br",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\qcuihj8de4-7k7whb7rur.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3063,7 +4217,7 @@
     },
     {
       "Route": "MauiApp1.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\qcuihj8de4-7k7whb7rur.gz",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\qcuihj8de4-7k7whb7rur.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3118,7 +4272,7 @@
     },
     {
       "Route": "MauiApp1.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\MauiApp1.bundle.scp.css",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\projectbundle\\MauiApp1.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3155,7 +4309,7 @@
     },
     {
       "Route": "MauiApp1.bundle.scp.css.br",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\qcuihj8de4-7k7whb7rur.br",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\qcuihj8de4-7k7whb7rur.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3200,7 +4354,7 @@
     },
     {
       "Route": "MauiApp1.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\qcuihj8de4-7k7whb7rur.gz",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\qcuihj8de4-7k7whb7rur.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3245,7 +4399,7 @@
     },
     {
       "Route": "MauiApp1.styles.css",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\oq58hdkxfw-7k7whb7rur.gz",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\oq58hdkxfw-7k7whb7rur.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3268,7 +4422,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:37:29 GMT"
+          "Value": "Thu, 02 Jan 2025 17:31:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3300,7 +4454,7 @@
     },
     {
       "Route": "MauiApp1.styles.css",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\oq58hdkxfw-7k7whb7rur.br",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\oq58hdkxfw-7k7whb7rur.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -3323,7 +4477,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:37:29 GMT"
+          "Value": "Thu, 02 Jan 2025 17:31:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3355,7 +4509,7 @@
     },
     {
       "Route": "MauiApp1.styles.css",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\MauiApp1.styles.css",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\MauiApp1.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3376,7 +4530,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:37:29 GMT"
+          "Value": "Thu, 02 Jan 2025 17:31:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3392,7 +4546,7 @@
     },
     {
       "Route": "MauiApp1.styles.css.br",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\oq58hdkxfw-7k7whb7rur.br",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\publish\\oq58hdkxfw-7k7whb7rur.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3413,7 +4567,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:37:29 GMT"
+          "Value": "Thu, 02 Jan 2025 17:31:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3437,7 +4591,7 @@
     },
     {
       "Route": "MauiApp1.styles.css.gz",
-      "AssetFile": "C:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\oq58hdkxfw-7k7whb7rur.gz",
+      "AssetFile": "c:\\Users\\Dell\\Desktop\\C#\\week6\\MauiApp1\\obj\\Debug\\net9.0-android\\compressed\\oq58hdkxfw-7k7whb7rur.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3458,7 +4612,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 10 Dec 2024 05:37:29 GMT"
+          "Value": "Thu, 02 Jan 2025 17:31:40 GMT"
         },
         {
           "Name": "Cache-Control",

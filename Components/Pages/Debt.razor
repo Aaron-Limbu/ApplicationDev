@@ -1,0 +1,68 @@
+﻿@page "/debt"
+@using MauiApp1.Models;
+@inject DebtService DebtService
+@inject UserService UserService
+
+<div class="mb-3">
+    <label for="username" class="form-label">Username</label>
+    <InputText @bind-Value="Username" class="form-control" />
+</div>
+
+<div class="mb-3">
+    <label for="registerDebtSource" class="form-label">Debt Source</label>
+    <InputText @bind-Value="RegisterDebtSource" class="form-control" />
+</div>
+
+<div class="mb-3">
+    <label for="registerDebtAmount" class="form-label">Debt Amount</label>
+    <InputNumber @bind-Value="RegisterDebtAmount" class="form-control" />
+</div>
+
+<div class="mb-3">
+    <label for="registerDebtDueDate" class="form-label">Due Date</label>
+    <InputText @bind-Value="RegisterDebtDueDate" class="form-control" placeholder="YYYY-MM-DD" />
+</div>
+
+<button type="submit" class="btn btn-primary">Submit</button>
+@* <button type="button" class="btn btn-secondary" @onclick="Cancel">Cancel</button> *@
+
+
+@code {
+    private decimal RegisterDebtAmount { get; set; }
+    private string RegisterDebtSource { get; set; } = string.Empty;
+    private string RegisterDebtDueDate { get; set; } = string.Empty;
+    private int RegisterDebtUserId { get; set; }
+    private List<Debts> debts = new();
+    private string Username { get; set; } = string.Empty;
+
+    protected override void OnInitialized()
+    {
+        debts = DebtService.LoadDebts();
+    }
+    public void CreateDebt()
+    {
+        int uid = UserService.GetId(Username);
+
+
+        var debt = new Debts
+            {
+                Source = RegisterDebtSource,
+                Amount = RegisterDebtAmount,
+                DueDate = RegisterDebtDueDate,
+                UserId = uid,
+                IsCleared = false,
+                ClearedByTransactionId = 0
+            };
+
+        // Assign DebtId based on the existing debts
+        debt.DebtId = debts.Count > 0 ? debts.Max(d => d.DebtId) + 1 : 1;
+
+        // Add the new debt to the list
+        debts.Add(debt);
+
+        // Save the updated list of debts (not just the single debt)
+        DebtService.SaveDebts(debts);
+    }
+
+
+}

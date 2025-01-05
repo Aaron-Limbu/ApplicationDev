@@ -1,0 +1,35 @@
+﻿@page "/addtag/{TransactionId:int}/{UserId:int}"
+@using MauiApp1.Models
+@inject NavigationManager NavigationManager
+@inject TagService TagService
+
+<h3>Add Tag to Transaction</h3>
+
+<p><strong>Transaction ID:</strong> @TransactionId</p>
+<p><strong>User ID:</strong> @UserId</p>
+
+<input type="text" @bind="TagName" class="form-control" placeholder="Enter Tag Name" />
+<button class="btn btn-success mt-2" @onclick="AddTagToTransaction">Save Tag</button>
+
+@code {
+    [Parameter] public int TransactionId { get; set; }
+    [Parameter] public int UserId { get; set; }
+
+    private string TagName { get; set; } = string.Empty;
+    private List<Tag> tags = new(); 
+    private void AddTagToTransaction()
+    {
+        var newTag = new Tag
+            {
+                Name = TagName,
+                UserId = UserId,
+                CreatedAt = DateTime.Now.ToString("yyyy-MM-dd"),
+                IsDefault = false,
+                T_id = TransactionId
+            };
+        newTag.TagId = tags.Count > 0 ? tags.Max(t => t.TagId) + 1 : 1;
+        tags.Add(newTag);
+        TagService.SaveTags(tags);
+        NavigationManager.NavigateTo("/");
+    }
+}
