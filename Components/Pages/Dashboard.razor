@@ -1,188 +1,237 @@
-﻿@page "/dashboard"
+﻿@page "/dashboard/{userid:int}"
+
 @using MauiApp1.Models
-@inject NavigationManager NavigationManager
 @inject TransactionService TransactionService
 @inject UserService UserService
 @inject DebtService DebtService
 @inject TagService TagService
 
-<h3>Transaction Dashboard</h3>
+<h1 class="text-center">Finance Dashboard</h1>
+<h2 class="text-right">Balance: @balance</h2>
 
-<div class="mb-3">
-    <input type="text" class="form-control" @bind="SearchQuery" placeholder="Search by Title" />
-    <select class="form-select" @bind="SelectedType">
-        <option value="">All Types</option>
-        <option value="Credit">Credit</option>
-        <option value="Debit">Debit</option>
-        <option value="Debt">Debt</option>
-    </select>
-    <input type="date" class="form-control" @bind="StartDate" />
-    <input type="date" class="form-control" @bind="EndDate" />
-    <button class="btn btn-primary mt-2" @onclick="ApplyFilters">Apply Filters</button>
-    <button class="btn btn-secondary mt-2" @onclick="SortByDate">Sort by Date</button>
-    <button class="btn btn-warning mt-2" @onclick="ClearDebt">Clear Debt</button>
+<div class="row text-center my-4">
+    <div class="col-md-3">
+        <div class="card bg-success text-white">
+            <div class="card-body">
+                <h5>Total Inflows</h5>
+                <h2>@totalInflows</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card bg-danger text-white">
+            <div class="card-body">
+                <h5>Total Outflows</h5>
+                <h2>@totalOutflows</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card bg-warning text-dark">
+            <div class="card-body">
+                <h5>Pending Debts</h5>
+                <h2>@remainingDebts</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card bg-primary text-white">
+            <div class="card-body">
+                <h5>Cleared Debts</h5>
+                <h2>@clearedDebts</h2>
+            </div>
+        </div>
+    </div>
 </div>
 
-<div class="mt-3">
-    <p><strong>Total Transactions:</strong> @TotalTransactions</p>
-    <p><strong>Total Inflows:</strong> @TotalInflows</p>
-    <p><strong>Total Outflows:</strong> @TotalOutflows</p>
-    <p><strong>Total Debt:</strong> @TotalDebt</p>
-    <p><strong>Cleared Debt:</strong> @ClearedDebt</p>
-    <p><strong>Remaining Debt:</strong> @RemainingDebt</p>
-    <p><strong>Highest Inflow:</strong> @HighestInflow</p>
-    <p><strong>Lowest Inflow:</strong> @LowestInflow</p>
-</div>
-
-<table class="table table-striped table-bordered table-hover">
-    <thead class="table-dark">
-        <tr>
-            <th>Title</th>
-            <th>Amount</th>
-            <th>Category</th>
-            <th>Type</th>
-            <th>Notes</th>
-            <th>Date</th>
-            <th>Currency</th>
-            <th>Tags</th>
-            <th>Actions</th>
-        </tr>
-    </thead>
-    <tbody>
-        @if (filteredTransactions.Any())
-        {
-            @foreach (var transaction in filteredTransactions)
+<div class="card my-4">
+    <div class="card-body">
+        <h5>Filter Transactions</h5>
+        <label for="typeFilter">Type:</label>
+        <InputSelect @bind-Value="filterType" class="form-control" @onchange="onTypeChange" TValue="string">
+            <option value="">-- Select a Type --</option>
+            @foreach(var tp in Types)
             {
-                            <tr>
-                                <td>@transaction.Title</td>
-                                <td>@transaction.Amount</td>
-                                <td>@transaction.Category</td>
-                                <td>@transaction.Type</td>
-                                <td>@transaction.Notes</td>
-                                <td>@transaction.Date.ToShortDateString()</td>
-                                <td>@GetCurrencyByUserId(transaction.UserId)</td>
-                                <td>@GetTagByTransaction(transaction.TransactionId) </td>
-                                <td>
-                                    <button class="btn btn-primary" @onclick='()=>NavigationManager.NavigateTo($"/addtag/{transaction.TransactionId}/{transaction.UserId}")'> Add Tag </button>
-                                    <button class="btn btn-danger btn-sm" @onclick="() => DeleteTransaction(transaction.TransactionId)">
-                                        Delete
-                                    </button>
-                                </td>
-
-                            </tr>
+                <option value="@tp">@tp</option>
             }
-        }
-        else
-        {
-                    <tr>
-                        <td colspan="8" class="text-center">No Data Found</td>
-                    </tr>
-        }
+        </InputSelect>
+        <label for="dateRange">Date Range:</label>
+        <input type="date" @bind="startDate" class="form-control" />
+        <input type="date" @bind="endDate" class="form-control" />
 
-    </tbody>
-</table>
-<a href="transaction" class="btn btn-primary">Add Transaction</a>
+        <label for="searchTitle">Search Title:</label>
+        <input @bind="searchTitle" class="form-control" placeholder="Search by Title" />
+
+        <button class="btn btn-primary mt-2" @onclick="ApplyFilters">Apply Filters</button>
+    </div>
+</div>
+
+<div class="table-responsive my-4">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Title</th>
+                <th>Amount</th>
+                <th>Type</th>
+                <th>Tags</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var transaction in filteredTransactions.OrderByDescending(t=>t.Date))
+            {
+                <tr>
+                    <td>@transaction.Date</td>
+                    <td>@transaction.Title</td>
+                    <td>@transaction.Amount</td>
+                    <td>@transaction.Type</td>
+                    <td>@string.Join(", ", tags.Where(t => t.T_id == transaction.TransactionId).Select(t => t.Name))</td>
+                    <td>
+                        <a class="btn btn-primary" href="@($"/addtag/{transaction.TransactionId}/{transaction.UserId}")">Add tag</a>
+                    </td>
+                    <td>
+                        <button class="btn btn-danger" @onclick="() => DeleteTransaction(transaction.TransactionId)">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div class="my-4">
+    <h4>Pending Debts</h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <td>Source</td>
+                <td>Debt Amount</td>
+                <td>Debt DueDate</td>
+                <td>Actions</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var debt in pendingDebts.OrderByDescending(dbs =>dbs.DueDate))
+            {
+                <tr>
+                    <td>@debt.Source</td>
+                    <td>@debt.Amount</td>
+                    <td>@debt.DueDate</td>
+                    <td><a class="btn btn-primary" @onclick="() => ClearDebt(debt.DebtId)">Clear Debt</a></td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+    <h4>Cleared debts</h4>
+    <table class="table">
+        
+        <thead>
+            <tr>
+                <td>Source</td>
+                <td>Debt Amount</td>
+                <td>Debt DueDate</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var p in Paid)
+            {
+                <tr>
+                    <td>@p.Source</td>
+                    <td>@p.Amount</td>
+                    <td>@p.DueDate</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
 
 @code {
+    [Parameter] public int userid { get; set; }
     private List<Transactions> transactions = new();
+    private List<Tag> tags = new();
     private List<Debts> debts = new();
     private List<Transactions> filteredTransactions = new();
-    private List<User> users = new();
-    private List<Tag> tags = new();
-    private string SearchQuery { get; set; } = string.Empty;
-    private string SelectedType { get; set; } = string.Empty;
-    private DateTime? StartDate { get; set; }
-    private DateTime? EndDate { get; set; }
-
-    protected override void OnInitialized()
+    private List<Debts> pendingDebts = new();
+    private string? Message { get; set; }
+    private decimal totalInflows { get; set; }
+    private decimal totalOutflows { get; set; }
+    private decimal clearedDebts { get; set; }
+    private decimal remainingDebts { get; set; }
+    private decimal balance { get; set; } 
+    private string filterType = string.Empty;
+    private string searchTitle = string.Empty;
+    private List<string> Types = new List<string> { "Credit","Debit"};
+    private DateOnly startDate = DateOnly.FromDateTime(DateTime.Now.AddMonths(-1));
+    private DateOnly endDate = DateOnly.FromDateTime(DateTime.Now);
+    private List<Debts> Paid = new();
+    protected override void OnParametersSet()
     {
         LoadData();
+        CalculateSummary();
+        ApplyFilters();
     }
-
+    private void onTypeChange(ChangeEventArgs e)
+    {
+        filterType = e.Value?.ToString() ?? string.Empty; 
+    }
     private void LoadData()
     {
-        transactions = TransactionService.LoadTransactions();
-        users = UserService.LoadUsers();
-        debts = DebtService.LoadDebts();
-        tags = TagService.LoadTags();
-        ApplyFilters();
+        transactions = TransactionService.LoadTransactions().Where(t => t.UserId == userid).ToList();
+        tags = TagService.LoadTags().Where(t => transactions.Any(tr => tr.TransactionId == t.T_id)).ToList();
+        debts = DebtService.LoadDebts().Where(d => d.UserId == userid).ToList();
+        balance = UserService.getBalance();
     }
 
-    private void SaveData()
+    private void CalculateSummary()
     {
-        TransactionService.SaveTransactions(transactions);
-    }
-
-    private int TotalTransactions => transactions.Count;
-    private decimal TotalInflows => transactions.Where(t => t.Type == "Credit").Sum(t => t.Amount);
-    private decimal TotalOutflows => transactions.Where(t => t.Type == "Debit").Sum(t => t.Amount);
-    public decimal TotalDebt => debts.Sum(t => t.Amount);
-    public decimal ClearedDebt => debts.Where(t => t.IsCleared).Sum(t => t.Amount);
-    public decimal RemainingDebt => debts.Where(t => !t.IsCleared && t.Amount > 0).Sum(t => t.Amount);
-    private decimal HighestInflow => transactions.Where(t => t.Type == "Credit").Select(t => t.Amount).DefaultIfEmpty(0).Max();
-    private decimal LowestInflow => transactions.Where(t => t.Type == "Credit").Select(t => t.Amount).DefaultIfEmpty(0).Min();
-
-    private string GetCurrencyByUserId(int userId)
-    {
-        var user = users.FirstOrDefault(u => u.UserId == userId);
-        return user?.PreferredCurrency ?? "N/A";
-    }
-    private string GetTagByTransaction(int td)
-    {
-        var tag = tags.FirstOrDefault(u => u.T_id== td );
-        return tag?.Name ?? "";
-    }
-
-    private void DeleteTransaction(int transactionId)
-    {
-        var transactionToDelete = transactions.FirstOrDefault(t => t.TransactionId == transactionId);
-        if (transactionToDelete != null)
-        {
-            transactions.Remove(transactionToDelete);
-            SaveData(); // Ensure deletion is saved
-            ApplyFilters();
-        }
-    }
-
-    private void ClearDebt()
-    {
-        var inflows = TotalInflows;
-        var remainingDebts = debts.Where(d => !d.IsCleared && d.Amount > 0).ToList();
-
-        foreach (var debt in remainingDebts)
-        {
-            if (inflows >= debt.Amount)
-            {
-                inflows -= debt.Amount;
-                debt.IsCleared = true; // Mark as cleared
-                debt.Amount = 0;
-            }
-            else
-            {
-                debt.Amount -= inflows;
-                inflows = 0;
-                break;
-            }
-        }
-
-        DebtService.SaveDebts(debts); // Ensure debts are saved
-        SaveData(); // Save transactions as well
-        ApplyFilters();
+        totalInflows = transactions.Where(t => t.Type == "Credit").Sum(t => t.Amount);
+        totalOutflows = transactions.Where(t => t.Type == "Debit").Sum(t => t.Amount);
+        clearedDebts = debts.Where(d => d.IsCleared).Count();
+        remainingDebts = debts.Where(d => !d.IsCleared).Sum(d => d.Amount);
+        pendingDebts = debts.Where(d => !d.IsCleared).ToList();
+        Paid = debts.Where(d => d.IsCleared).ToList();
     }
 
     private void ApplyFilters()
     {
-        // Apply filters for display without modifying the main list
         filteredTransactions = transactions
-            .Where(t => (string.IsNullOrEmpty(SearchQuery) || t.Title.Contains(SearchQuery, StringComparison.OrdinalIgnoreCase)) &&
-                        (string.IsNullOrEmpty(SelectedType) || t.Type == SelectedType) &&
-                        (!StartDate.HasValue || t.Date >= DateOnly.FromDateTime(StartDate.Value)) &&
-                        (!EndDate.HasValue || t.Date <= DateOnly.FromDateTime(EndDate.Value)))
+            .Where(t => (string.IsNullOrWhiteSpace(filterType) || t.Type == filterType) &&
+                        (string.IsNullOrWhiteSpace(searchTitle) || t.Title.Contains(searchTitle, StringComparison.OrdinalIgnoreCase)) &&
+                        (t.Date >= startDate && t.Date <= endDate))
             .ToList();
     }
 
-    private void SortByDate()
+    private void DeleteTransaction(int t_id)
     {
-        filteredTransactions = filteredTransactions.OrderBy(t => t.Date).ToList();
+        var transactionToDelete = transactions.FirstOrDefault(t => t.TransactionId == t_id);
+
+        if (transactionToDelete != null)
+        {
+            transactions.Remove(transactionToDelete); 
+            TransactionService.SaveTransactions(transactions); 
+            CalculateSummary(); 
+            Message = "Transaction deleted successfully.";
+        }
+        else
+        {
+            Message = "Transaction not found.";
+        }
     }
+
+    private void ClearDebt(int debtId)
+    {
+        // Find the debt to delete by its ID
+        var debtToClear = debts.FirstOrDefault(d => d.DebtId == debtId);
+        if(debtToClear != null)
+        {
+            debtToClear.IsCleared = true;
+            DebtService.SaveDebts(debts);
+            CalculateSummary();
+            Message = "Debt has been cleared";
+
+        }
+
+    }
+
 }

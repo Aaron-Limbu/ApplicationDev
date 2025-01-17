@@ -7,17 +7,14 @@
 
 <div class="container-fluid vh-100">
     <div class="row h-100">
-        <!-- Logo Section -->
         <div class="col-md-6 d-flex align-items-center justify-content-center bg-dark">
             <img src="Images/undraw_savings_uwjn.svg" alt="Logo" class="img-fluid" style="max-height: 90%;" />
         </div>
 
-        <!-- Form Section -->
         <div class="col-md-6 d-flex align-items-center justify-content-center">
             <div class="w-75">
                 <h3 class="text-center mb-4">Register</h3>
                 <div class="row">
-                    <!-- First Row -->
                     <div class="col-md-6 form-group mb-3">
                         <label for="firstname">First Name</label>
                         <input id="firstname" type="text" class="form-control" placeholder="Enter first name" @bind="RegisterFirstname" />
@@ -27,7 +24,6 @@
                         <input id="lastname" type="text" class="form-control" placeholder="Enter last name" @bind="RegisterLastname"/>
                     </div>
 
-                    <!-- Second Row -->
                     <div class="col-md-6 form-group mb-3">
                         <label for="email">Email</label>
                         <input id="email" type="email" class="form-control" placeholder="Enter email" @bind="RegisterEmail" />
@@ -43,7 +39,6 @@
                             }
                         </InputSelect>
                     </div>
-                    <!-- Third Row -->
                     <div class="col-md-6 form-group mb-3">
                         <label for="repassword">Retype Password</label>
                         <input id="repassword" type="password" class="form-control" placeholder="Retype password" @bind="RegisterPassword"/>
@@ -93,7 +88,7 @@
 
     private void RegisterUser()
     {
-        // Form validation checks
+
         if (string.IsNullOrWhiteSpace(RegisterFirstname) ||
             string.IsNullOrWhiteSpace(RegisterLastname) ||
             string.IsNullOrWhiteSpace(RegisterEmail) ||
@@ -122,14 +117,14 @@
             return;
         }
 
-        // Create new user and hash the password
         var newUser = new User
         {
            
             Username = RegisterUsername,
             Password = UserService.HashPassword(RegisterPassword),
             Email = RegisterEmail,
-            PreferredCurrency = RegisterPreferredCurrency
+            PreferredCurrency = RegisterPreferredCurrency,
+            createdAt = DateOnly.FromDateTime(DateTime.Now)
         };
 
         newUser.UserId = Users.Count > 0 ? Users.Max(u => u.UserId) + 1 : 1;

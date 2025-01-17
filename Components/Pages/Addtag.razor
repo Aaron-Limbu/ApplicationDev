@@ -16,20 +16,25 @@
     [Parameter] public int UserId { get; set; }
 
     private string TagName { get; set; } = string.Empty;
-    private List<Tag> tags = new(); 
+    private List<Tag> tags = new();
+
+    protected override void OnInitialized()
+    {
+        tags = TagService.LoadTags();
+    }
     private void AddTagToTransaction()
     {
         var newTag = new Tag
             {
                 Name = TagName,
                 UserId = UserId,
-                CreatedAt = DateTime.Now.ToString("yyyy-MM-dd"),
+                CreatedAt = DateOnly.FromDateTime(DateTime.Now),
                 IsDefault = false,
                 T_id = TransactionId
             };
         newTag.TagId = tags.Count > 0 ? tags.Max(t => t.TagId) + 1 : 1;
         tags.Add(newTag);
         TagService.SaveTags(tags);
-        NavigationManager.NavigateTo("/");
+        NavigationManager.NavigateTo($"/dashboard/{UserId}");
     }
 }

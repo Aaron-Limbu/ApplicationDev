@@ -1,4 +1,7 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
+﻿
+@inject UserService UserService
+
+<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="/">Fintrack</a>
     </div>
@@ -9,11 +12,11 @@
 <div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
     <nav class="flex-column">
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="dashboard" Match="NavLinkMatch.All">
+            <NavLink class="nav-link" href="@($"/dashboard/{u_id}")" Match="NavLinkMatch.All">
                 <span class="" aria-hidden="true"></span> Transactions
             </NavLink>
         </div>
-       
+
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="cashin">
                 <span class="" aria-hidden="true"></span> Cash In
@@ -31,3 +34,11 @@
         </div>
     </nav>
 </div>
+
+@code{
+    private int u_id { get; set; }
+    protected override void OnInitialized()
+    {
+        u_id = UserService.getses();
+    }
+}

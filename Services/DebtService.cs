@@ -13,17 +13,17 @@ public class DebtService
     private static readonly string DesktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
     private static readonly string FolderPath = Path.Combine(DesktopPath, "LocalDB");
     private static readonly string FilePath = Path.Combine(FolderPath, "Debts.json");
-    public List<MauiApp1.Models.Debts> LoadDebts()
+    public List<Debts> LoadDebts()
     {
         if (!File.Exists(FilePath))
         {
-            return new List<MauiApp1.Models.Debts>();
+            return new List<Debts>();
 
         }
         var json = File.ReadAllText(FilePath);
-        return JsonSerializer.Deserialize<List<MauiApp1.Models.Debts>>(json) ?? new List<MauiApp1.Models.Debts>();
+        return JsonSerializer.Deserialize<List<Debts>>(json) ?? new List<Debts>();
     }
-    public void SaveDebts(List<MauiApp1.Models.Debts> debts)
+    public void SaveDebts(List<Debts> debts)
     {
         if (!Directory.Exists(FolderPath))
         {

@@ -14,10 +14,9 @@ public class TransactionService
     public List<Transactions> LoadTransactions()
     {
         if (!File.Exists(FilePath))
-        {
             return new List<Transactions>();
 
-        }
+        
         var json = File.ReadAllText(FilePath);
         return JsonSerializer.Deserialize<List<Transactions>>(json) ?? new List<Transactions>();
     }

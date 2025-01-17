@@ -8,13 +8,10 @@
 
 <div class="container-fluid vh-100 p-0 m-0 ">
     <div class="row h-100 g-0">
-        <!-- Logo Section -->
         <div class="col-md-6 d-flex align-items-center justify-content-center p-0 m-0 bg-dark">
-            
-            <img src="Images/undraw_yacht_rrg9.svg" alt="Logo" class="img-fluid" style="max-height: 100%;  " />
+            <img src="Images/undraw_yacht_rrg9.svg" alt="Logo" class="img-fluid" style="max-height: 100%;" />
         </div>
 
-        <!-- Form Section -->
         <div class="col-md-6 d-flex align-items-center justify-content-center p-0 m-0 bg-light">
             <div class="w-75">
                 <h3 class="text-center mb-4">Login</h3>
@@ -39,33 +36,44 @@
     </div>
 </div>
 
-
-
 @code {
     private string LoginEmail = string.Empty;
     private string LoginPassword = string.Empty;
-    private string Message = string.Empty;
-
+    private string Message { get; set; } = string.Empty;
     private List<User> Users = new();
-
+    private int userid { get; set; }
     protected override void OnInitialized()
     {
-        Users = UserService.LoadUsers();
+        try
+        {
+            Users = UserService.LoadUsers();
+        }
+        catch (Exception ex)
+        {
+            Message = $"Error loading users: {ex.Message}";
+        }
     }
 
     private void LoginPage()
     {
-        var user = Users.FirstOrDefault(u => u.Email == LoginEmail);
+        try
+        {
+            var user = Users.FirstOrDefault(u => u.Email == LoginEmail);
 
-        if (user != null && UserService.ValidatePassword(LoginPassword, user.Password))
-        {
-            // Redirect to dashboard if login is successful
-            NavigationManager.NavigateTo("/dashboard");
+            if (user != null && UserService.ValidatePassword(LoginPassword, user.Password))
+            {
+                userid = UserService.GetId2(LoginEmail);
+                UserService.sessionId(userid);
+                NavigationManager.NavigateTo($"/dashboard/{userid}");
+            }
+            else
+            {
+                Message = "Invalid email or password.";
+            }
         }
-        else
+        catch (Exception ex)
         {
-            Message = "Invalid email or password.";
+            Message = $"An error occurred: {ex.Message}";
         }
     }
 }
-

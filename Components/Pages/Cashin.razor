@@ -1,82 +1,159 @@
 ﻿@page "/cashin"
-@using MauiApp1.Models
-
 @inject TransactionService TransactionService
-@inject CashinService CashinService
+@inject UserService UserService
+@using MauiApp1.Models
+@inject DebtService DebtService
 @inject UserService UserService
 
-<div class="container mt-5 mb-5 p-5">
-    <h3 class="text-center mb-4">Register Cash Inflow</h3>
+<h3 class="mb-3">Cash-In Form</h3>
 
-        <div class="form-group mb-3">
-            <label for="username">Username</label>
-            <input type="text" id="username" class="form-control" @bind="Username" required />
-        </div>
+<EditForm Model="this" OnValidSubmit="cashin" class="needs-validation">
+    <DataAnnotationsValidator />
 
-        <div class="form-group mb-3">
-            <label for="amount">Amount</label>
-            <input type="number" id="amount" class="form-control" @bind="RegisterAmount" required />
-        </div>
+    <div class="mb-3">
+        <label class="form-label">Title:</label>
+        <InputText @bind-Value="sTitle" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Which debt do you want to clear with your amount? </label>
+        <InputSelect class="form-control" @bind-Value="ans" @onchange="Debitschange" TValue="string">
+            @foreach(var ds in pending.Where(p => p.UserId == userid))
+            {
+                <option value="">-- Select Id -- (optional)</option>
+                <option value="@ds.DebtId">Debit ID: @ds.DebtId, Source: @ds.Source</option>
+            }
+        </InputSelect>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Amount:</label>
+        <InputNumber @bind-Value="sAmount" class="form-control" />
+    </div>
 
-        <div class="form-group mb-3">
-            <label for="date">Date</label>
-            <input type="date" id="date" class="form-control" @bind="RegisterDate" required />
-        </div>
+    <div class="mb-3">
+        <label class="form-label">Category:</label>
+        <InputText @bind-Value="sCategory" class="form-control" />
+    </div>
 
-        <div class="form-group mb-3">
-            <label for="sourceIncome">Source of Income</label>
-            <input type="text" id="sourceIncome" class="form-control" @bind="RegisterSI" required />
-        </div>
+    <div class="mb-3">
+        <label class="form-label">Notes:</label>
+        <InputText @bind-Value="sNotes" class="form-control" />
+    </div>
 
-        <div class="form-group mb-3">
-            <label for="note">Note</label>
-            <textarea id="note" class="form-control" @bind="RegisterNote"></textarea>
-        </div>
+    <div class="mb-3">
+        <label class="form-label">Date:</label>
+        <InputDate @bind-Value="sDate" class="form-control" />
+    </div>
 
-
-        <div class="form-group mb-3">
-            <label>Tags</label>
-            <InputSelect @bind-Value="RegisterTag" @onchange="OnTagsChange" Tvalue="string" class="form-select" >
-                <option value="">-- Select a Tag --</option>
-                @foreach (var tag in Tags)
-                {
-                    <option value="@tag">@tag</option>
-                }
-            </InputSelect>
-        </div>
-
-        <button @onclick="CreateCashin" class="btn btn-primary w-100">Submit Cash Inflow</button>
-
-</div>
-@code{
-    private decimal RegisterAmount { get; set; }
-    private DateOnly RegisterDate { get; set; } =  DateOnly.FromDateTime(DateTime.Now);
-    private string RegisterSI { get; set; } = string.Empty;
-    private string RegisterNote { get; set; } = string.Empty;
-    private List<string> Tags = new List<string> { "Yearly", "Monthly", "Food", "Drinks", "Clothes", "Gadgets", "Miscellaneous", "Fuel" };
-    private string RegisterTag { get; set; } 
-    // private List<Transactions> transactions = new ();
-    private List<CashinFlow> cashinFlows = new();
-    private string Username { get; set; } = string.Empty;
-    private int RegisterUserId { get; set;  }
-
-    private void OnTagsChange(ChangeEventArgs e)
+    @if (!string.IsNullOrEmpty(Message))
     {
-        RegisterTag = e.Value?.ToString() ?? string.Empty; 
+        <p class="alert alert-info">@Message</p>
     }
-    public void CreateCashin()
-	{
-		RegisterUserId = UserService.GetId(Username);
-		var CI = new CashinFlow
-		{
-			Amount = RegisterAmount,
-			Date = RegisterDate ,
-			SourceofIncome = RegisterSI,
-			Note = RegisterNote,
-			UserId = RegisterUserId
-		};
-		CI.Id = cashinFlows.Count > 0 ? cashinFlows.Max(u => u.Id) + 1 : 1;
-		cashinFlows.Add(CI);
-		CashinService.AddCashin(cashinFlows);
-	}
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+
+</EditForm>
+
+
+@code {
+    private string sTitle { get; set; } = string.Empty;
+    private decimal sAmount { get; set; } 
+    private string sType { get; set; } = "Credit";
+    private string sCategory { get; set; } = string.Empty;
+    private string sNotes { get; set; } = string.Empty;
+    private DateOnly sDate { get; set; } = DateOnly.FromDateTime(DateTime.Now);
+
+    private List<Transactions> transactions = new ();
+    private string? ans { get; set; }
+    private string Message { get; set; } = string.Empty;
+    private int id { get; set; } 
+    private int userid { get; set; }
+    private List<Debts> pending = new ();
+    private List<User> users = new();
+
+    protected override void OnInitialized()
+    {
+        transactions = TransactionService.LoadTransactions();
+        pending = DebtService.LoadDebts().Where(d => !d.IsCleared).ToList();
+        users = UserService.LoadUsers();
+        userid = UserService.getses();
+    }
+    private void Debitschange(ChangeEventArgs e)
+    {
+        ans = e.Value?.ToString() ?? string.Empty;
+    }
+    public void cashin()
+    {
+
+        if(ans != null)
+        {
+            id = Int32.Parse(ans);
+             
+            var user = users.FirstOrDefault(u => u.UserId == userid);
+            var deb = pending.FirstOrDefault(d => d.DebtId == id);
+            if (deb != null)
+            {
+                if (user != null)
+                {
+                    if (deb.Amount == sAmount)
+                    {
+                        deb.IsCleared = true;
+                        DebtService.SaveDebts(pending);
+                        user.balance += 0;
+                        UserService.cashin(userid, sAmount,deb.IsCleared);
+                        UserService.SaveUsers(users);
+                        Message = $"debt has been cleared for {deb.Source}";
+                    }
+                    if (deb.Amount > sAmount)
+                    {
+
+                        deb.Amount -= sAmount;
+                        DebtService.SaveDebts(pending);
+                        user.balance = deb.Amount;
+                        UserService.cashin(userid, sAmount, false);
+                        UserService.SaveUsers(users);
+                        Message = $"{sAmount} has been paid for {deb.Source} remaining {deb.Amount} is left";
+
+                    }
+                    else
+                    {
+                        Message = "Enter proper value";
+                    }
+                }
+            }
+            var newT = new Transactions
+                {
+                    Title = sTitle,
+                    Amount = sAmount,
+                    Type = sType,
+                    Category = sCategory,
+                    Notes = sNotes,
+                    Date = sDate,
+                    UserId = userid
+                };
+            newT.TransactionId = transactions.Count > 0 ? transactions.Max(u => u.TransactionId) + 1 : 1;
+
+            transactions.Add(newT);
+            TransactionService.SaveTransactions(transactions);
+            Message = "cash in saved";
+        }
+        else
+        {
+            var userid = UserService.getses();
+            var newT = new Transactions
+                {
+                    Title = sTitle,
+                    Amount = sAmount,
+                    Type = sType,
+                    Category = sCategory,
+                    Notes = sNotes,
+                    Date = sDate,
+                    UserId = userid
+                };
+            newT.TransactionId = transactions.Count > 0 ? transactions.Max(u => u.TransactionId) + 1 : 1;
+            UserService.cashin(userid, sAmount, false);
+            transactions.Add(newT);
+            TransactionService.SaveTransactions(transactions);
+            Message = "cash in saved";
+        }
+    }
 }

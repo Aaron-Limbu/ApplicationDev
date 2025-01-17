@@ -20,20 +20,24 @@
 
 <div class="mb-3">
     <label for="registerDebtDueDate" class="form-label">Due Date</label>
-    <InputText @bind-Value="RegisterDebtDueDate" class="form-control" placeholder="YYYY-MM-DD" />
+    <InputDate @bind-Value="RegisterDebtDueDate" class="form-control" placeholder="YYYY-MM-DD" />
 </div>
+@if (!string.IsNullOrEmpty(Message))
+{
+    <p class="alert alert-info">@Message</p>
+}
+<button type="submit" @onclick="CreateDebt" class="btn btn-primary">Submit</button>
 
-<button type="submit" class="btn btn-primary">Submit</button>
-@* <button type="button" class="btn btn-secondary" @onclick="Cancel">Cancel</button> *@
 
 
 @code {
     private decimal RegisterDebtAmount { get; set; }
     private string RegisterDebtSource { get; set; } = string.Empty;
-    private string RegisterDebtDueDate { get; set; } = string.Empty;
+    private DateOnly RegisterDebtDueDate { get; set; } = DateOnly.FromDateTime(DateTime.Now);
     private int RegisterDebtUserId { get; set; }
     private List<Debts> debts = new();
     private string Username { get; set; } = string.Empty;
+    private string? Message{ get; set; }
 
     protected override void OnInitialized()
     {
@@ -53,15 +57,10 @@
                 IsCleared = false,
                 ClearedByTransactionId = 0
             };
-
-        // Assign DebtId based on the existing debts
         debt.DebtId = debts.Count > 0 ? debts.Max(d => d.DebtId) + 1 : 1;
-
-        // Add the new debt to the list
         debts.Add(debt);
-
-        // Save the updated list of debts (not just the single debt)
         DebtService.SaveDebts(debts);
+        Message = "debit added to your pending debit list";
     }
 
 
