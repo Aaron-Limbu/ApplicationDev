@@ -6,145 +6,190 @@
 @inject DebtService DebtService
 @inject TagService TagService
 
-<h1 class="text-center">Finance Dashboard</h1>
-<h2 class="text-right">Balance: @balance</h2>
+<div class="container my-5">
+    <!-- Header -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="text-left">Finance Dashboard</h1>
+        <h2 class="text-right">Balance: @CurrencyType. @balance</h2>
+    </div>
 
-<div class="row text-center my-4">
-    <div class="col-md-3">
-        <div class="card bg-success text-white">
-            <div class="card-body">
-                <h5>Total Inflows</h5>
-                <h2>@totalInflows</h2>
+    <!-- Summary Cards -->
+    <div class="row text-center">
+        <!-- Total Inflows -->
+        <div class="col-md-3 mb-4">
+            <div class="card shadow-sm border-0 rounded-4 bg-success text-white">
+                <div class="card-body">
+                    <h5>Total Inflows</h5>
+                    <h2 class="font-weight-bold">@CurrencyType. @totalInflows</h2>
+                    <i class="fas fa-wallet fa-2x float-end"></i>
+                </div>
+            </div>
+        </div>
+        <!-- Total Outflows -->
+        <div class="col-md-3 mb-4">
+            <div class="card shadow-sm border-0 rounded-4 bg-danger text-white">
+                <div class="card-body">
+                    <h5>Total Outflows</h5>
+                    <h2 class="font-weight-bold">@CurrencyType. @totalOutflows</h2>
+                    <i class="fas fa-money-bill-wave fa-2x float-end"></i>
+                </div>
+            </div>
+        </div>
+        <!-- Pending Debts -->
+        <div class="col-md-3 mb-4">
+            <div class="card shadow-sm border-0 rounded-4 bg-warning text-dark">
+                <div class="card-body">
+                    <h5>Pending Debts</h5>
+                    <h2 class="font-weight-bold">@CurrencyType. @remainingDebts</h2>
+                    <i class="fas fa-clock fa-2x float-end"></i>
+                </div>
+            </div>
+        </div>
+        <!-- Cleared Debts -->
+        <div class="col-md-3 mb-4">
+            <div class="card shadow-sm border-0 rounded-4 bg-primary text-white">
+                <div class="card-body">
+                    <h5>Cleared Debts</h5>
+                    <h2 class="font-weight-bold">@clearedDebts</h2>
+                    <i class="fas fa-check-circle fa-2x float-end"></i>
+                </div>
             </div>
         </div>
     </div>
-    <div class="col-md-3">
-        <div class="card bg-danger text-white">
-            <div class="card-body">
-                <h5>Total Outflows</h5>
-                <h2>@totalOutflows</h2>
+
+    <!-- Filter Transactions -->
+    <div class="card shadow-sm border-0 rounded-4 my-4">
+        <div class="card-body">
+            <h5 class="mb-3">Filter Transactions</h5>
+            <div class="row g-3">
+                <div class="col-md-3">
+                    <label for="typeFilter" class="form-label">Type:</label>
+                    <InputSelect @bind-Value="filterType" class="form-select" @onchange="onTypeChange" TValue="string">
+                        <option value="">-- Select a Type --</option>
+                        @foreach (var tp in Types)
+                        {
+                            <option value="@tp">@tp</option>
+                        }
+                    </InputSelect>
+                </div>
+                <div class="col-md-3">
+                    <label for="dateRange" class="form-label">Start Date:</label>
+                    <input type="date" @bind="startDate" class="form-control" />
+                </div>
+                <div class="col-md-3">
+                    <label for="dateRange" class="form-label">End Date:</label>
+                    <input type="date" @bind="endDate" class="form-control" />
+                </div>
+                <div class="col-md-3">
+                    <label for="searchTitle" class="form-label">Search Title:</label>
+                    <input @bind="searchTitle" class="form-control" placeholder="Search by Title" />
+                </div>
+                <div class="col-12 text-end">
+                    <button class="btn btn-primary mt-3" @onclick="ApplyFilters">Apply Filters</button>
+                </div>
             </div>
         </div>
     </div>
-    <div class="col-md-3">
-        <div class="card bg-warning text-dark">
-            <div class="card-body">
-                <h5>Pending Debts</h5>
-                <h2>@remainingDebts</h2>
+
+    <!-- Transactions Table -->
+    <div class="card shadow-sm border-0 rounded-4 my-4">
+        <div class="card-body">
+            <h4>Transactions</h4>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Title</th>
+                            <th>Amount</th>
+                            <th>Type</th>
+                            <th>Tags</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var transaction in filteredTransactions.OrderByDescending(t => t.Date))
+                        {
+                            <tr>
+                                <td>@transaction.Date</td>
+                                <td>@transaction.Title</td>
+                                <td>@CurrencyType. @transaction.Amount</td>
+                                <td>@transaction.Type</td>
+                                <td>@string.Join(", ", tags.Where(t => t.T_id == transaction.TransactionId).Select(t => t.Name))</td>
+                                <td>
+                                    <a class="btn btn-outline-primary" href="@($"/addtag/{transaction.TransactionId}/{transaction.UserId}")">Add Tag</a>
+                                    <button class="btn btn-outline-danger" @onclick="() => DeleteTransaction(transaction.TransactionId)">Delete</button>
+                                    @if (tags.FirstOrDefault(u => u.TagId == transaction.TransactionId) != null)
+                                    {
+                                        <button class="btn btn-outline-danger"
+                                                @onclick="() => clearTag(Convert.ToInt32(tags.FirstOrDefault(t => t.T_id == transaction.TransactionId)?.TagId))">
+                                            Delete Tag
+                                        </button>
+                                    }
+                                  
+
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
-    <div class="col-md-3">
-        <div class="card bg-primary text-white">
-            <div class="card-body">
-                <h5>Cleared Debts</h5>
-                <h2>@clearedDebts</h2>
+
+    <!-- Debts Section -->
+    <div class="card shadow-sm border-0 rounded-4 my-4">
+        <div class="card-body">
+            <h4>Pending Debts</h4>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <td>Source</td>
+                            <td>Debt Amount</td>
+                            <td>Debt DueDate</td>
+                            <td>Actions</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var debt in pendingDebts.OrderByDescending(dbs => dbs.DueDate))
+                        {
+                            <tr>
+                                <td>@debt.Source</td>
+                                <td>@CurrencyType. @debt.Amount</td>
+                                <td>@debt.DueDate</td>
+                                <td><a class="btn btn-outline-success" @onclick="() => ClearDebt(debt.DebtId)">Clear Debt</a></td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+            <h4 class="mt-4">Cleared Debts</h4>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <td>Source</td>
+                            <td>Debt Amount</td>
+                            <td>Debt DueDate</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var p in Paid)
+                        {
+                            <tr>
+                                <td>@p.Source</td>
+                                <td>@CurrencyType. @p.Amount</td>
+                                <td>@p.DueDate</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
 </div>
 
-<div class="card my-4">
-    <div class="card-body">
-        <h5>Filter Transactions</h5>
-        <label for="typeFilter">Type:</label>
-        <InputSelect @bind-Value="filterType" class="form-control" @onchange="onTypeChange" TValue="string">
-            <option value="">-- Select a Type --</option>
-            @foreach(var tp in Types)
-            {
-                <option value="@tp">@tp</option>
-            }
-        </InputSelect>
-        <label for="dateRange">Date Range:</label>
-        <input type="date" @bind="startDate" class="form-control" />
-        <input type="date" @bind="endDate" class="form-control" />
-
-        <label for="searchTitle">Search Title:</label>
-        <input @bind="searchTitle" class="form-control" placeholder="Search by Title" />
-
-        <button class="btn btn-primary mt-2" @onclick="ApplyFilters">Apply Filters</button>
-    </div>
-</div>
-
-<div class="table-responsive my-4">
-    <table class="table table-striped">
-        <thead>
-            <tr>
-                <th>Date</th>
-                <th>Title</th>
-                <th>Amount</th>
-                <th>Type</th>
-                <th>Tags</th>
-                <th>Actions</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var transaction in filteredTransactions.OrderByDescending(t=>t.Date))
-            {
-                <tr>
-                    <td>@transaction.Date</td>
-                    <td>@transaction.Title</td>
-                    <td>@transaction.Amount</td>
-                    <td>@transaction.Type</td>
-                    <td>@string.Join(", ", tags.Where(t => t.T_id == transaction.TransactionId).Select(t => t.Name))</td>
-                    <td>
-                        <a class="btn btn-primary" href="@($"/addtag/{transaction.TransactionId}/{transaction.UserId}")">Add tag</a>
-                    </td>
-                    <td>
-                        <button class="btn btn-danger" @onclick="() => DeleteTransaction(transaction.TransactionId)">Delete</button>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
-</div>
-
-<div class="my-4">
-    <h4>Pending Debts</h4>
-    <table class="table">
-        <thead>
-            <tr>
-                <td>Source</td>
-                <td>Debt Amount</td>
-                <td>Debt DueDate</td>
-                <td>Actions</td>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach(var debt in pendingDebts.OrderByDescending(dbs =>dbs.DueDate))
-            {
-                <tr>
-                    <td>@debt.Source</td>
-                    <td>@debt.Amount</td>
-                    <td>@debt.DueDate</td>
-                    <td><a class="btn btn-primary" @onclick="() => ClearDebt(debt.DebtId)">Clear Debt</a></td>
-                </tr>
-            }
-        </tbody>
-
-    </table>
-    <h4>Cleared debts</h4>
-    <table class="table">
-        
-        <thead>
-            <tr>
-                <td>Source</td>
-                <td>Debt Amount</td>
-                <td>Debt DueDate</td>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach(var p in Paid)
-            {
-                <tr>
-                    <td>@p.Source</td>
-                    <td>@p.Amount</td>
-                    <td>@p.DueDate</td>
-                </tr>
-            }
-        </tbody>
-    </table>
-</div>
 
 @code {
     [Parameter] public int userid { get; set; }
@@ -165,6 +210,9 @@
     private DateOnly startDate = DateOnly.FromDateTime(DateTime.Now.AddMonths(-1));
     private DateOnly endDate = DateOnly.FromDateTime(DateTime.Now);
     private List<Debts> Paid = new();
+    private string CurrencyType { get; set; } = string.Empty;
+
+
     protected override void OnParametersSet()
     {
         LoadData();
@@ -181,6 +229,7 @@
         tags = TagService.LoadTags().Where(t => transactions.Any(tr => tr.TransactionId == t.T_id)).ToList();
         debts = DebtService.LoadDebts().Where(d => d.UserId == userid).ToList();
         balance = UserService.getBalance();
+        CurrencyType = UserService.getUserPreferredCurrency(); 
     }
 
     private void CalculateSummary()
@@ -232,6 +281,18 @@
 
         }
 
+    }
+    public void clearTag(int T_id)
+    {
+        try
+        {
+            TagService.remove_tag(T_id);
+            Message = "Tag successfully removed";
+        }
+        catch(Exception ex)
+        { 
+            Message = $"Error: {ex}";
+        }
     }
 
 }

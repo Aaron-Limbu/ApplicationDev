@@ -44,13 +44,7 @@ public class UserService
         var hashedInputPassword = HashPassword(inputPassword);
         return hashedInputPassword == storedPassword;
     }
-    public int GetId(string username)
-    {
-        var json = File.ReadAllText(FilePath);
-        var Users = JsonSerializer.Deserialize<List<User>>(json) ?? new List<User>();
-        var id = Users.FirstOrDefault(u => u.Username == username);
-        return id?.UserId ?? 0;
-    }
+  
     public int GetId2(string email)
     {
         var json = File.ReadAllText(FilePath);
@@ -110,5 +104,17 @@ public class UserService
         user.balance -= amount;
         StoreBalance(user.Username, user.balance);
     }
-
+    public void addDebt(decimal amount)
+    {
+        var user = LoadUsers().FirstOrDefault(u=>u.UserId == getses());
+        if (user != null) { 
+            user.balance += amount;
+            StoreBalance(user.Username,user.balance);
+        }
+    }
+    public string getUserPreferredCurrency()
+    {
+        var user = LoadUsers().FirstOrDefault(user => user.UserId == getses());
+        return user != null ? user.PreferredCurrency : "";
+    }
 }

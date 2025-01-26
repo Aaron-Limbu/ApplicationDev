@@ -42,4 +42,15 @@ public class TagService
 
         return tags.Where(t => t.UserId == userId).ToList();
     }
+
+    public void remove_tag(int id)
+    {
+        var tagtodelete = LoadTags().FirstOrDefault(u => u.T_id == id);
+        if (tagtodelete == null)
+        {
+            throw new Exception("No tag found");
+        }
+        tags.Remove(tagtodelete);
+        SaveTags(tags);
+    }
 }

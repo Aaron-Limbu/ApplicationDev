@@ -3,10 +3,7 @@
 @inject DebtService DebtService
 @inject UserService UserService
 
-<div class="mb-3">
-    <label for="username" class="form-label">Username</label>
-    <InputText @bind-Value="Username" class="form-control" />
-</div>
+
 
 <div class="mb-3">
     <label for="registerDebtSource" class="form-label">Debt Source</label>
@@ -45,8 +42,7 @@
     }
     public void CreateDebt()
     {
-        int uid = UserService.GetId(Username);
-
+        int uid = UserService.getses();
 
         var debt = new Debts
             {
@@ -60,6 +56,7 @@
         debt.DebtId = debts.Count > 0 ? debts.Max(d => d.DebtId) + 1 : 1;
         debts.Add(debt);
         DebtService.SaveDebts(debts);
+        UserService.addDebt(RegisterDebtAmount);
         Message = "debit added to your pending debit list";
     }
 

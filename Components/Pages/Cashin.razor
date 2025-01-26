@@ -84,76 +84,83 @@
     public void cashin()
     {
 
-        if(ans != null)
+        try
         {
-            id = Int32.Parse(ans);
-             
-            var user = users.FirstOrDefault(u => u.UserId == userid);
-            var deb = pending.FirstOrDefault(d => d.DebtId == id);
-            if (deb != null)
+            if (ans != null)
             {
-                if (user != null)
+                id = Int32.Parse(ans);
+
+                var user = users.FirstOrDefault(u => u.UserId == userid);
+                var deb = pending.FirstOrDefault(d => d.DebtId == id);
+                if (deb != null)
                 {
-                    if (deb.Amount == sAmount)
+                    if (user != null)
                     {
-                        deb.IsCleared = true;
-                        DebtService.SaveDebts(pending);
-                        user.balance += 0;
-                        UserService.cashin(userid, sAmount,deb.IsCleared);
-                        UserService.SaveUsers(users);
-                        Message = $"debt has been cleared for {deb.Source}";
-                    }
-                    if (deb.Amount > sAmount)
-                    {
+                        if (deb.Amount == sAmount)
+                        {
+                            deb.IsCleared = true;
+                            DebtService.SaveDebts(pending);
+                            user.balance += 0;
+                            UserService.cashin(userid, sAmount, deb.IsCleared);
+                            UserService.SaveUsers(users);
+                            Message = $"debt has been cleared for {deb.Source}";
+                        }
+                        if (deb.Amount > sAmount)
+                        {
 
-                        deb.Amount -= sAmount;
-                        DebtService.SaveDebts(pending);
-                        user.balance = deb.Amount;
-                        UserService.cashin(userid, sAmount, false);
-                        UserService.SaveUsers(users);
-                        Message = $"{sAmount} has been paid for {deb.Source} remaining {deb.Amount} is left";
+                            deb.Amount -= sAmount;
+                            DebtService.SaveDebts(pending);
+                            user.balance = deb.Amount;
+                            UserService.cashin(userid, sAmount, false);
+                            UserService.SaveUsers(users);
+                            Message = $"{sAmount} has been paid for {deb.Source} remaining {deb.Amount} is left";
 
-                    }
-                    else
-                    {
-                        Message = "Enter proper value";
+                        }
+                        else
+                        {
+                            Message = "Enter proper value";
+                        }
                     }
                 }
-            }
-            var newT = new Transactions
-                {
-                    Title = sTitle,
-                    Amount = sAmount,
-                    Type = sType,
-                    Category = sCategory,
-                    Notes = sNotes,
-                    Date = sDate,
-                    UserId = userid
-                };
-            newT.TransactionId = transactions.Count > 0 ? transactions.Max(u => u.TransactionId) + 1 : 1;
+                var newT = new Transactions
+                    {
+                        Title = sTitle,
+                        Amount = sAmount,
+                        Type = sType,
+                        Category = sCategory,
+                        Notes = sNotes,
+                        Date = sDate,
+                        UserId = userid
+                    };
+                newT.TransactionId = transactions.Count > 0 ? transactions.Max(u => u.TransactionId) + 1 : 1;
 
-            transactions.Add(newT);
-            TransactionService.SaveTransactions(transactions);
-            Message = "cash in saved";
+                transactions.Add(newT);
+                TransactionService.SaveTransactions(transactions);
+                Message = "cash in saved";
+            }
+            else
+            {
+                var userid = UserService.getses();
+                var newT = new Transactions
+                    {
+                        Title = sTitle,
+                        Amount = sAmount,
+                        Type = sType,
+                        Category = sCategory,
+                        Notes = sNotes,
+                        Date = sDate,
+                        UserId = userid
+                    };
+                newT.TransactionId = transactions.Count > 0 ? transactions.Max(u => u.TransactionId) + 1 : 1;
+                UserService.cashin(userid, sAmount, false);
+                transactions.Add(newT);
+                TransactionService.SaveTransactions(transactions);
+                Message = "cash in saved";
+            }
         }
-        else
+        catch(Exception ex)
         {
-            var userid = UserService.getses();
-            var newT = new Transactions
-                {
-                    Title = sTitle,
-                    Amount = sAmount,
-                    Type = sType,
-                    Category = sCategory,
-                    Notes = sNotes,
-                    Date = sDate,
-                    UserId = userid
-                };
-            newT.TransactionId = transactions.Count > 0 ? transactions.Max(u => u.TransactionId) + 1 : 1;
-            UserService.cashin(userid, sAmount, false);
-            transactions.Add(newT);
-            TransactionService.SaveTransactions(transactions);
-            Message = "cash in saved";
+            Message = $"Error: {ex}";
         }
     }
 }

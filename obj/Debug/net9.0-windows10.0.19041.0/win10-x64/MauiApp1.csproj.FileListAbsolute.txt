@@ -527,8 +527,6 @@ C:\Users\Dell\Desktop\C#\week6\MauiApp1\obj\Debug\net9.0-windows10.0.19041.0\win
 C:\Users\Dell\Desktop\C#\week6\MauiApp1\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\Dell\Desktop\C#\week6\MauiApp1\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Dell\Desktop\C#\week6\MauiApp1\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MauiApp1.sourcelink.json
-C:\Users\Dell\Desktop\C#\week6\MauiApp1\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\81s4vtvejm-dlycpbnccc.gz
-C:\Users\Dell\Desktop\C#\week6\MauiApp1\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\publish\81s4vtvejm-dlycpbnccc.br
 C:\Users\Dell\Desktop\C#\week6\MauiApp1\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.UserSecrets.dll
 C:\Users\Dell\Desktop\C#\week6\MauiApp1\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\undraw_yacht_rrg9.scale-100.png
 C:\Users\Dell\Desktop\C#\week6\MauiApp1\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\undraw_yacht_rrg9.scale-125.png
@@ -552,3 +550,5 @@ C:\Users\Dell\Desktop\C#\week6\MauiApp1\bin\Debug\net9.0-windows10.0.19041.0\win
 C:\Users\Dell\Desktop\C#\week6\MauiApp1\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\wwwroot\Images\undraw_savings_uwjn.svg
 C:\Users\Dell\Desktop\C#\week6\MauiApp1\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\5bc72zn3wx-yv38s5socn.gz
 C:\Users\Dell\Desktop\C#\week6\MauiApp1\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\publish\5bc72zn3wx-yv38s5socn.br
+C:\Users\Dell\Desktop\C#\week6\MauiApp1\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\81s4vtvejm-a8hylnfdjx.gz
+C:\Users\Dell\Desktop\C#\week6\MauiApp1\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\publish\81s4vtvejm-a8hylnfdjx.br
